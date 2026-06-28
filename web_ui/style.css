@@ -1,0 +1,471 @@
+/* ===========================================
+   MLB 侍速報 — スタイルシート
+   空色（スカイブルー）を基調としたデザイン
+=========================================== */
+
+/* ---------- カスタムプロパティ ---------- */
+:root {
+  --sky-lightest: #f0f9ff;
+  --sky-light:    #bae6fd;
+  --sky-mid:      #7dd3fc;
+  --sky-primary:  #38bdf8;
+  --sky-deep:     #0ea5e9;
+  --sky-darker:   #0284c7;
+  --sky-darkest:  #0369a1;
+
+  --accent-gold:  #f59e0b;
+  --accent-coral: #f87171;
+  --text-dark:    #0f172a;
+  --text-mid:     #334155;
+  --text-light:   #64748b;
+  --white:        #ffffff;
+
+  --radius-sm:    8px;
+  --radius-md:    14px;
+  --radius-lg:    22px;
+  --shadow-sm:    0 2px 8px rgba(14,165,233,.12);
+  --shadow-md:    0 6px 24px rgba(14,165,233,.18);
+  --shadow-lg:    0 12px 40px rgba(14,165,233,.22);
+
+  --transition:   all .25s cubic-bezier(.4,0,.2,1);
+}
+
+/* ---------- リセット ---------- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: linear-gradient(145deg, #e0f2fe 0%, #f0f9ff 40%, #e0f2fe 100%);
+  color: var(--text-dark);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* ---------- ヘッダー ---------- */
+.site-header {
+  position: relative;
+  background: linear-gradient(135deg, var(--sky-darkest) 0%, var(--sky-deep) 50%, var(--sky-primary) 100%);
+  color: var(--white);
+  padding: 2.4rem 2rem 4rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(255,255,255,.08) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(255,255,255,.06) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.header-inner { position: relative; z-index: 1; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  margin-bottom: .4rem;
+}
+
+.logo-icon { font-size: 2.2rem; }
+
+.logo-text {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+
+.logo-accent { color: var(--sky-light); }
+
+.header-sub {
+  font-size: .95rem;
+  font-weight: 300;
+  opacity: .85;
+  letter-spacing: .05em;
+}
+
+.header-note {
+  font-size: .8rem;
+  font-weight: 300;
+  opacity: .75;
+  margin-top: .3rem;
+  letter-spacing: .04em;
+}
+
+/* 波形の区切り */
+.header-wave {
+  position: absolute;
+  bottom: -1px; left: 0; right: 0;
+  height: 48px;
+  background: linear-gradient(145deg, #e0f2fe 0%, #f0f9ff 100%);
+  clip-path: ellipse(55% 100% at 50% 100%);
+}
+
+/* ---------- メイン ---------- */
+.main-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* ---------- アクションバー ---------- */
+.action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.date-display {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--white);
+  border: 2px solid var(--sky-light);
+  border-radius: var(--radius-md);
+  padding: .4rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--sky-darkest);
+  box-shadow: var(--shadow-sm);
+}
+
+.date-label {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.date-input {
+  border: none;
+  font-family: 'Outfit', 'Noto Sans JP', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--sky-darkest);
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* 新しい通算成績カラムの強調表示用 */
+.season-stat {
+  background-color: var(--sky-lightest);
+  color: var(--sky-darkest) !important;
+}
+
+.refresh-btn {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  background: linear-gradient(135deg, var(--sky-deep), var(--sky-darkest));
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius-md);
+  padding: .75rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Noto Sans JP', sans-serif;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+.refresh-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  background: linear-gradient(135deg, var(--sky-primary), var(--sky-deep));
+}
+
+.refresh-btn:active { transform: translateY(0); }
+
+.btn-icon { font-size: 1.1rem; }
+
+/* ---------- ローディング ---------- */
+.loading-container {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.spinner {
+  width: 52px;
+  height: 52px;
+  border: 5px solid var(--sky-light);
+  border-top-color: var(--sky-deep);
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.loading-text {
+  color: var(--sky-darker);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* ---------- エラー ---------- */
+.error-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #fff1f2;
+  border: 1.5px solid #fda4af;
+  border-radius: var(--radius-md);
+  padding: 1rem 1.4rem;
+  color: #9f1239;
+  margin-bottom: 1.5rem;
+}
+
+.error-icon { font-size: 1.4rem; }
+
+/* ---------- データなし ---------- */
+.no-data {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.no-data-icon { font-size: 3.5rem; margin-bottom: 1rem; }
+
+.no-data-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--sky-darkest);
+  margin-bottom: .5rem;
+}
+
+.no-data-sub {
+  color: var(--text-light);
+  font-size: .9rem;
+}
+
+/* ---------- セクション・カード ---------- */
+.stats-section { display: flex; flex-direction: column; gap: 2rem; }
+
+.card-wrap {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.card-wrap:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  border-bottom: 2px solid var(--sky-lightest);
+}
+
+.batting-title  { background: linear-gradient(90deg, var(--sky-lightest), var(--white)); color: var(--sky-darkest); }
+.pitching-title { background: linear-gradient(90deg, #fef3c7, var(--white)); color: #92400e; }
+
+.section-icon { font-size: 1.2rem; }
+
+/* ---------- テーブル ---------- */
+.table-wrapper {
+  overflow-x: auto;
+  padding: 0 .5rem .5rem;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 620px;
+}
+
+.stats-table thead tr {
+  background: linear-gradient(90deg, var(--sky-lightest), #f8fafc);
+}
+
+.stats-table th {
+  padding: .8rem 1rem;
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--sky-darker);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.stats-table th.num,
+.stats-table td.num { text-align: center; }
+
+.stats-table tbody tr {
+  border-bottom: 1px solid #f0f9ff;
+  transition: var(--transition);
+}
+
+.stats-table tbody tr:hover {
+  background: linear-gradient(90deg, #f0f9ff, #ffffff);
+  transform: scale(1.005);
+  box-shadow: 0 2px 12px rgba(14,165,233,.1);
+}
+
+.stats-table td {
+  padding: .85rem 1rem;
+  font-size: .95rem;
+  color: var(--text-mid);
+}
+
+.player-name {
+  font-weight: 700;
+  color: var(--sky-darkest);
+  white-space: nowrap;
+}
+
+.team-vs {
+  font-size: .82rem;
+  color: var(--text-light);
+  white-space: nowrap;
+}
+
+.highlight-hr  { font-weight: 700; color: var(--accent-coral); }
+.highlight-so  { font-weight: 700; color: var(--sky-deep); }
+
+/* ---------- ファイル保存通知 ---------- */
+.file-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+  border: 1.5px solid var(--sky-light);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.4rem;
+  margin-top: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.file-icon { font-size: 1.6rem; flex-shrink: 0; }
+
+.file-notice-title {
+  font-weight: 700;
+  color: var(--sky-darkest);
+  margin-bottom: .25rem;
+}
+
+.file-notice-body {
+  font-size: .85rem;
+  color: var(--text-light);
+  word-break: break-all;
+  line-height: 1.7;
+}
+
+/* ---------- フッター ---------- */
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: .82rem;
+  color: var(--text-light);
+  border-top: 1px solid var(--sky-light);
+  background: var(--white);
+}
+
+/* ---------- レスポンシブ ---------- */
+@media (max-width: 600px) {
+  .logo-text { font-size: 1.5rem; }
+  .action-bar { flex-direction: column; align-items: stretch; }
+  .refresh-btn { justify-content: center; }
+}
+
+/* ---------- フェードイン ---------- */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-wrap { animation: fadeUp .45s ease both; }
+.card-wrap:nth-child(2) { animation-delay: .1s; }
+
+/* ---------- 背景のピッチャー・バッターイラスト ---------- */
+.background-pitcher,
+.background-batter {
+  position: fixed;
+  bottom: 0;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  mix-blend-mode: multiply; /* 白背景を透過させて背景グラデーションに馴染ませる */
+  opacity: 0.95;
+  pointer-events: none; /* マウス操作を邪魔しない */
+  z-index: 0; /* 背景グラデーションの上、コンテンツの下 */
+}
+
+.background-pitcher {
+  left: 0;
+  width: 23vw; /* 画面幅の約4分の1 */
+  background-image: url('pitcher.png');
+  background-position: left bottom 5vh;
+}
+
+.background-batter {
+  right: 0;
+  width: 23vw; /* 画面幅の約4分の1 */
+  background-image: url('batter.png');
+  background-position: right bottom 5vh;
+}
+
+/* メインコンテンツが背景画像の上に重なった時に文字が読めるよう、
+   z-indexを設定 */
+.main-content {
+  position: relative;
+  z-index: 10;
+}
+
+.site-header, .site-footer {
+  position: relative;
+  z-index: 20;
+}
+
+/* ---------- 画面幅に応じた左右対称レイアウト調整 ---------- */
+@media (min-width: 1350px) {
+  /* 画面幅が十分に広い場合、メインコンテンツを中央に配置し、
+     左右のイラスト（幅23vwずつ）と被らないようにする */
+  .main-content {
+    margin: 0 auto;
+    max-width: calc(100vw - 48vw); /* 左右の余白を合わせて48vw確保 */
+  }
+}
+
+@media (max-width: 1349px) and (min-width: 769px) {
+  /* 中画面では、コンテンツがイラストと被るため、
+     イラストの透明度を下げて（薄く表示して）文字の視認性を確保する */
+  .background-pitcher,
+  .background-batter {
+    opacity: 0.18;
+    width: 20vw;
+  }
+  
+  .main-content {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* モバイル画面では、画面が狭いためイラストを非表示にし、
+     通常のテーブル表示のみにする */
+  .background-pitcher,
+  .background-batter {
+    display: none;
+  }
+}
+

@@ -1,0 +1,13 @@
+# メール設定ファイル（個人情報・パスワード等）
+config_email.json
+.env
+
+# 自動生成されるデータフォルダー
+output/
+
+# Pythonのキャッシュ
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/

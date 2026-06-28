@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MLB 日本人選手成績速報</title>
+  <meta name="description" content="本日のMLBで活躍した日本人選手の成績をリアルタイムで確認できるツールです。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;600;700&family=Outfit:wght@300;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 背景のピッチャーイラスト -->
+  <div class="background-pitcher"></div>
+  <!-- 背景のバッターイラスト -->
+  <div class="background-batter"></div>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">⚾</span>
+        <span class="logo-text">MLB<span class="logo-accent"> 侍速報 2026</span></span>
+      </div>
+      <p class="header-sub">本日の日本人選手成績をひと目でチェック</p>
+      <p class="header-note">（※成績結果は,日本時間前日のMLB成績となります）</p>
+    </div>
+    <div class="header-wave"></div>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main class="main-content">
+    <!-- 日付＆更新ボタン -->
+    <section class="action-bar">
+      <div id="date-display" class="date-display">
+        <label for="date-input" class="date-label">試合日:</label>
+        <input type="date" id="date-input" class="date-input" onchange="loadStats()" />
+      </div>
+      <button id="refresh-btn" class="refresh-btn" onclick="loadStats()">
+        <span class="btn-icon">🔄</span>
+        <span class="btn-label">成績を取得</span>
+      </button>
+    </section>
+
+    <!-- ローディング表示 -->
+    <div id="loading" class="loading-container" style="display:none;">
+      <div class="spinner"></div>
+      <p class="loading-text">データ取得中...</p>
+    </div>
+
+    <!-- エラー表示 -->
+    <div id="error-box" class="error-box" style="display:none;">
+      <span class="error-icon">⚠️</span>
+      <p id="error-message"></p>
+    </div>
+
+    <!-- 成績なし -->
+    <div id="no-data" class="no-data" style="display:none;">
+      <div class="no-data-icon">😴</div>
+      <p class="no-data-title">本日の試合データがまだありません</p>
+      <p class="no-data-sub">試合開始後に再度「成績を取得」を押してください。</p>
+    </div>
+
+    <!-- 成績テーブルエリア -->
+    <section id="stats-section" class="stats-section" style="display:none;">
+
+      <!-- 打撃成績 -->
+      <div id="batting-section" class="card-wrap">
+        <h2 class="section-title batting-title">
+          <span class="section-icon">🏏</span> 打撃成績
+        </h2>
+        <div class="table-wrapper">
+          <table class="stats-table" id="batting-table">
+            <thead>
+              <tr>
+                <th>選手名</th>
+                <th>対戦カード</th>
+                <th class="num">打数</th>
+                <th class="num">安打</th>
+                <th class="num">本塁打</th>
+                <th class="num">打点</th>
+                <th class="num">四球</th>
+                <th class="num">三振</th>
+                <th class="num season-stat">通算打率</th>
+                <th class="num season-stat">通算HR</th>
+                <th class="num season-stat">通算打点</th>
+              </tr>
+            </thead>
+            <tbody id="batting-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 投手成績 -->
+      <div id="pitching-section" class="card-wrap">
+        <h2 class="section-title pitching-title">
+          <span class="section-icon">⚡</span> 投手成績
+        </h2>
+        <div class="table-wrapper">
+          <table class="stats-table" id="pitching-table">
+            <thead>
+              <tr>
+                <th>選手名</th>
+                <th>対戦カード</th>
+                <th class="num">投球回</th>
+                <th class="num">被安打</th>
+                <th class="num">自責点</th>
+                <th class="num">四球</th>
+                <th class="num">奪三振</th>
+                <th class="num">防御率</th>
+                <th class="num season-stat">通算勝敗</th>
+                <th class="num season-stat">通算防御率</th>
+                <th class="num season-stat">通算奪三振</th>
+              </tr>
+            </thead>
+            <tbody id="pitching-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- 保存ファイル案内 -->
+    <div id="file-notice" class="file-notice" style="display:none;">
+      <span class="file-icon">💾</span>
+      <div>
+        <p class="file-notice-title">本日のデータファイル</p>
+        <p class="file-notice-body">以下のボタンからExcel用のCSVファイルなどをダウンロードできます。</p>
+        <div style="margin-top: 10px;">
+          <a id="download-csv" href="#" class="refresh-btn" style="display:inline-block; margin-right: 10px; text-decoration:none; font-size:0.9em; padding: 6px 12px; border-radius: 6px;" download>CSVをダウンロード</a>
+          <a id="download-json" href="#" class="refresh-btn" style="display:inline-block; text-decoration:none; font-size:0.9em; padding: 6px 12px; background-color:#6c757d; border-radius: 6px;" download>JSONをダウンロード</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <p>データ提供: MLB Stats API ｜ © 2026 MLB 侍速報</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
