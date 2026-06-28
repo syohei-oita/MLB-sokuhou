@@ -8,6 +8,9 @@ on:
   workflow_dispatch:
     # GitHubの管理画面から手動でいつでも実行可能にするための設定
 
+permissions:
+  contents: write # リポジトリへの書き込み権限（git push）を許可
+
 jobs:
   send-email:
     runs-on: ubuntu-latest
