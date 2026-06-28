@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2026-06-29",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "Texas Rangers vs Toronto Blue Jays",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".238",
+      "season_hr": 19,
+      "season_rbi": 53
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "Philadelphia Phillies vs New York Mets",
+    "pitching": {
+      "IP": "5.0",
+      "H": 4,
+      "ER": 2,
+      "BB": 1,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 7,
+      "season_era": "9.09",
+      "season_so": 38
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "Chicago Cubs vs Milwaukee Brewers",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".262",
+      "season_hr": 12,
+      "season_rbi": 37
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "Los Angeles Dodgers vs San Diego Padres",
+    "batting": {
+      "AB": 2,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".297",
+      "season_hr": 17,
+      "season_rbi": 47
+    }
+  }
+]
