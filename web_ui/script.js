@@ -66,22 +66,24 @@ async function loadStats() {
     selectedDate = `${y}-${m}-${d}`;
   }
   
-  // Flask API を呼び出してデータを取得（裏側で過去7日分も自動取得される）
-  const url = `/api/stats?date=${selectedDate}`;
+  // Netlify上の静的データファイル（JSON）を直接取得する
+  const url = `./data/${selectedDate}_stats.json`;
 
   try {
     const res = await fetch(url);
 
     if (!res.ok) {
-      const errData = await res.json().catch(() => ({}));
-      const errMsg = errData.error ? errData.error : `サーバーエラー: HTTP ${res.status}`;
-      throw new Error(errMsg);
+      if (res.status === 404) {
+        throw new Error("この日付のデータはまだ準備されていません。");
+      }
+      throw new Error(`サーバーエラー: HTTP ${res.status}`);
     }
 
-    const data = await res.json(); // APIからのレスポンスは { date, count, results: [...] } 形式
+    const data = await res.json(); // 静的JSONは直接配列が返ってくる
     stopLoading();
 
-    const results = data.results || [];
+    // 静的ファイルの場合は data 自体が配列。API形式に備えてフォールバックも残す
+    const results = Array.isArray(data) ? data : (data.results || []);
 
     if (!results || results.length === 0) {
       const titleEl = document.querySelector("#no-data .no-data-title");
