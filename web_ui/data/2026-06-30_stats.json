@@ -1,40 +1,24 @@
 [
   {
     "date": "2026-06-30",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "ナショナルズ 3 - 6 レッドソックス (試合終了)",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "メッツ 1 - 2 ブルージェイズ (試合終了)",
     "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".250",
-      "season_hr": 2,
-      "season_rbi": 11
-    }
-  },
-  {
-    "date": "2026-06-30",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 2 - 3 アスレチックス (試合中)",
-    "batting": {
-      "AB": 2,
+      "AB": 3,
       "H": 0,
       "HR": 0,
       "RBI": 0,
       "BB": 0,
-      "SO": 1,
-      "season_avg": ".293",
-      "season_hr": 17,
-      "season_rbi": 47
+      "SO": 2,
+      "season_avg": ".236",
+      "season_hr": 19,
+      "season_rbi": 53
     }
   },
   {
     "date": "2026-06-30",
     "player": "今永 昇太 (CHC)",
-    "team_vs": "パドレス 2 - 2 カブス (試合中)",
+    "team_vs": "パドレス 2 - 3 カブス (試合終了)",
     "pitching": {
       "IP": "6.1",
       "H": 9,
@@ -51,33 +35,49 @@
   {
     "date": "2026-06-30",
     "player": "鈴木 誠也 (CHC)",
-    "team_vs": "パドレス 2 - 2 カブス (試合中)",
+    "team_vs": "パドレス 2 - 3 カブス (試合終了)",
     "batting": {
-      "AB": 2,
-      "H": 1,
+      "AB": 4,
+      "H": 2,
       "HR": 0,
-      "RBI": 1,
+      "RBI": 2,
       "BB": 0,
-      "SO": 0,
-      "season_avg": ".264",
+      "SO": 1,
+      "season_avg": ".266",
       "season_hr": 12,
-      "season_rbi": 38
+      "season_rbi": 39
     }
   },
   {
     "date": "2026-06-30",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "メッツ 1 - 2 ブルージェイズ (試合終了)",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 9 - 4 アスレチックス (試合終了)",
     "batting": {
-      "AB": 3,
-      "H": 0,
+      "AB": 5,
+      "H": 2,
+      "HR": 1,
+      "RBI": 3,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".297",
+      "season_hr": 18,
+      "season_rbi": 50
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "ナショナルズ 3 - 6 レッドソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
       "HR": 0,
       "RBI": 0,
       "BB": 0,
-      "SO": 2,
-      "season_avg": ".236",
-      "season_hr": 19,
-      "season_rbi": 53
+      "SO": 0,
+      "season_avg": ".250",
+      "season_hr": 2,
+      "season_rbi": 11
     }
   }
 ]
