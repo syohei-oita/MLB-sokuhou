@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-06-16",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "ロッキーズ 4 - 5 カブス (試合終了)",
+    "pitching": {
+      "IP": "5.2",
+      "H": 5,
+      "ER": 1,
+      "BB": 1,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 4,
+      "season_losses": 6,
+      "season_era": "4.26",
+      "season_so": 84
+    }
+  },
+  {
+    "date": "2026-06-16",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ロッキーズ 4 - 5 カブス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 2,
+      "season_avg": ".251",
+      "season_hr": 10,
+      "season_rbi": 28
+    }
+  },
+  {
+    "date": "2026-06-16",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "レイズ 3 - 4 ドジャース (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".298",
+      "season_hr": 14,
+      "season_rbi": 41
+    }
+  }
+]

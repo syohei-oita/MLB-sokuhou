@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-03-28",
+    "player": "菊池 雄星 (HOU)",
+    "team_vs": "エンゼルス 6 - 2 アストロズ (試合終了)",
+    "pitching": {
+      "IP": "4.1",
+      "H": 8,
+      "ER": 2,
+      "BB": 1,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "4.15",
+      "season_so": 3
+    }
+  },
+  {
+    "date": "2026-03-28",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "アスレチックス 2 - 3 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".667",
+      "season_hr": 0,
+      "season_rbi": 0
+    }
+  },
+  {
+    "date": "2026-03-28",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ダイヤモンドバックス 4 - 5 ドジャース (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".167",
+      "season_hr": 0,
+      "season_rbi": 0
+    }
+  }
+]

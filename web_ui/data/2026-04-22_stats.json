@@ -1,0 +1,116 @@
+[
+  {
+    "date": "2026-04-22",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "ヤンキース 4 - 0 レッドソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".289",
+      "season_hr": 0,
+      "season_rbi": 5
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 1 - 3 ジャイアンツ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".271",
+      "season_hr": 5,
+      "season_rbi": 11
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "player": "山本 由伸 (LAD)",
+    "team_vs": "ドジャース 1 - 3 ジャイアンツ (試合終了)",
+    "pitching": {
+      "IP": "7.0",
+      "H": 6,
+      "ER": 3,
+      "BB": 2,
+      "SO": 7,
+      "ERA": "-.--",
+      "season_wins": 2,
+      "season_losses": 2,
+      "season_era": "2.48",
+      "season_so": 28
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 11 - 5 ダイヤモンドバックス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 3,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".234",
+      "season_hr": 9,
+      "season_rbi": 17
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 4 - 2 エンゼルス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".202",
+      "season_hr": 3,
+      "season_rbi": 8
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "フィリーズ 4 - 7 カブス (試合終了)",
+    "pitching": {
+      "IP": "7.0",
+      "H": 3,
+      "ER": 1,
+      "BB": 1,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 2,
+      "season_losses": 1,
+      "season_era": "2.17",
+      "season_so": 32
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "フィリーズ 4 - 7 カブス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".256",
+      "season_hr": 1,
+      "season_rbi": 4
+    }
+  }
+]

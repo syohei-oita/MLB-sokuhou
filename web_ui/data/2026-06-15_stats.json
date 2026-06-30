@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-06-15",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 4 - 6 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 2,
+      "season_avg": ".302",
+      "season_hr": 14,
+      "season_rbi": 41
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レンジャーズ 6 - 4 レッドソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".246",
+      "season_hr": 1,
+      "season_rbi": 10
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ヤンキース 8 - 3 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".235",
+      "season_hr": 15,
+      "season_rbi": 42
+    }
+  }
+]

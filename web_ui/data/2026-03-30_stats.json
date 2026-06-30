@@ -1,0 +1,84 @@
+[
+  {
+    "date": "2026-03-30",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 2 - 3 レッズ (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".000",
+      "season_hr": 0,
+      "season_rbi": 0
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "アスレチックス 2 - 5 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".333",
+      "season_hr": 1,
+      "season_rbi": 1
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "ナショナルズ 6 - 3 カブス (試合終了)",
+    "pitching": {
+      "IP": "5.0",
+      "H": 6,
+      "ER": 4,
+      "BB": 2,
+      "SO": 7,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 1,
+      "season_era": "7.20",
+      "season_so": 7
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 7 - 9 ブルワーズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 3,
+      "season_avg": ".333",
+      "season_hr": 3,
+      "season_rbi": 3
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "エンゼルス 7 - 9 アストロズ (試合終了)",
+    "pitching": {
+      "IP": "2.2",
+      "H": 3,
+      "ER": 4,
+      "BB": 4,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "13.50",
+      "season_so": 4
+    }
+  }
+]

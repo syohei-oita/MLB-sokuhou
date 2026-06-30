@@ -1,0 +1,116 @@
+[
+  {
+    "date": "2026-05-13",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "フィリーズ 2 - 1 レッドソックス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".282",
+      "season_hr": 0,
+      "season_rbi": 5
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 2 - 5 ブレーブス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".284",
+      "season_hr": 7,
+      "season_rbi": 16
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ロイヤルズ 5 - 6 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 3,
+      "season_avg": ".228",
+      "season_hr": 15,
+      "season_rbi": 29
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "レイズ 7 - 6 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".242",
+      "season_hr": 10,
+      "season_rbi": 26
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "マリナーズ 10 - 2 アストロズ (試合終了)",
+    "pitching": {
+      "IP": "4.0",
+      "H": 5,
+      "ER": 6,
+      "BB": 3,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 1,
+      "season_era": "9.24",
+      "season_so": 16
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ジャイアンツ 6 - 2 ドジャース (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".240",
+      "season_hr": 7,
+      "season_rbi": 17
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "player": "山本 由伸 (LAD)",
+    "team_vs": "ジャイアンツ 6 - 2 ドジャース (試合終了)",
+    "pitching": {
+      "IP": "6.1",
+      "H": 6,
+      "ER": 5,
+      "BB": 0,
+      "SO": 8,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 3,
+      "season_era": "3.60",
+      "season_so": 48
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-06-20",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 2 - 16 カブス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".228",
+      "season_hr": 15,
+      "season_rbi": 42
+    }
+  },
+  {
+    "date": "2026-06-20",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ブルージェイズ 2 - 16 カブス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 3,
+      "HR": 0,
+      "RBI": 2,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".269",
+      "season_hr": 10,
+      "season_rbi": 31
+    }
+  },
+  {
+    "date": "2026-06-20",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "ガーディアンズ 3 - 9 アストロズ (試合終了)",
+    "pitching": {
+      "IP": "6.0",
+      "H": 6,
+      "ER": 3,
+      "BB": 0,
+      "SO": 11,
+      "ERA": "-.--",
+      "season_wins": 4,
+      "season_losses": 3,
+      "season_era": "6.15",
+      "season_so": 48
+    }
+  }
+]

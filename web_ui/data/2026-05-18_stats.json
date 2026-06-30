@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-05-18",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 8 - 9 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 6,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".258",
+      "season_hr": 7,
+      "season_rbi": 17
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "カブス 8 - 9 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".235",
+      "season_hr": 17,
+      "season_rbi": 32
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 10 - 1 エンゼルス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 3,
+      "HR": 0,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".258",
+      "season_hr": 7,
+      "season_rbi": 24
+    }
+  }
+]

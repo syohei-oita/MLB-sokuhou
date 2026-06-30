@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2026-04-30",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "マーリンズ 3 - 2 ドジャース (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 3,
+      "SO": 1,
+      "season_avg": ".273",
+      "season_hr": 6,
+      "season_rbi": 13
+    }
+  },
+  {
+    "date": "2026-04-30",
+    "player": "菊池 雄星 (HOU)",
+    "team_vs": "エンゼルス 2 - 3 ホワイトソックス (試合終了)",
+    "pitching": {
+      "IP": "2.0",
+      "H": 2,
+      "ER": 0,
+      "BB": 1,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 3,
+      "season_era": "5.81",
+      "season_so": 33
+    }
+  },
+  {
+    "date": "2026-04-30",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "エンゼルス 2 - 3 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 3,
+      "SO": 1,
+      "season_avg": ".236",
+      "season_hr": 12,
+      "season_rbi": 23
+    }
+  },
+  {
+    "date": "2026-04-30",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "レッドソックス 1 - 8 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".224",
+      "season_hr": 5,
+      "season_rbi": 15
+    }
+  }
+]

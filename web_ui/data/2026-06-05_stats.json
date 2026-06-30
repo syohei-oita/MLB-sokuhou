@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-06-05",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "アスレチックス 6 - 7 カブス (試合終了)",
+    "pitching": {
+      "IP": "6.0",
+      "H": 6,
+      "ER": 6,
+      "BB": 1,
+      "SO": 5,
+      "ERA": "-.--",
+      "season_wins": 4,
+      "season_losses": 6,
+      "season_era": "4.74",
+      "season_so": 74
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "アスレチックス 6 - 7 カブス (試合終了)",
+    "batting": {
+      "AB": 1,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".243",
+      "season_hr": 8,
+      "season_rbi": 20
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 7 - 2 ブレーブス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".225",
+      "season_hr": 13,
+      "season_rbi": 35
+    }
+  }
+]

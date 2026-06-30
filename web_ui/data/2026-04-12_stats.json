@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2026-04-12",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 0 - 2 ロイヤルズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".167",
+      "season_hr": 4,
+      "season_rbi": 7
+    }
+  },
+  {
+    "date": "2026-04-12",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "パイレーツ 4 - 3 カブス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".286",
+      "season_hr": 0,
+      "season_rbi": 0
+    }
+  },
+  {
+    "date": "2026-04-12",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "アスレチックス 11 - 6 メッツ (試合終了)",
+    "pitching": {
+      "IP": "2.1",
+      "H": 8,
+      "ER": 7,
+      "BB": 2,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 2,
+      "season_era": "7.07",
+      "season_so": 19
+    }
+  },
+  {
+    "date": "2026-04-12",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "レンジャーズ 3 - 6 ドジャース (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".283",
+      "season_hr": 4,
+      "season_rbi": 9
+    }
+  }
+]

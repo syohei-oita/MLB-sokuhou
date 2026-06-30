@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-06-06",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ジャイアンツ 18 - 3 カブス (試合終了)",
+    "batting": {
+      "AB": 1,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 3,
+      "SO": 0,
+      "season_avg": ".247",
+      "season_hr": 9,
+      "season_rbi": 21
+    }
+  },
+  {
+    "date": "2026-06-06",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "エンゼルス 0 - 1 ドジャース (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".296",
+      "season_hr": 10,
+      "season_rbi": 33
+    }
+  },
+  {
+    "date": "2026-06-06",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "オリオールズ 13 - 3 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".230",
+      "season_hr": 13,
+      "season_rbi": 35
+    }
+  }
+]
