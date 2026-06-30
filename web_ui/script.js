@@ -40,13 +40,11 @@ function startLoading() {
   hide("no-data");
   hide("error-box");
   show("loading");
-  document.getElementById("refresh-btn").disabled = true;
 }
 
 /** ローディング終了 */
 function stopLoading() {
   hide("loading");
-  document.getElementById("refresh-btn").disabled = false;
 }
 
 /**
