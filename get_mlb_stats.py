@@ -404,15 +404,23 @@ def fetch_and_save_past_days(target_date_str, days=2):
 
 def main():
     """メインエントリーポイント（コマンドライン実行用）"""
-    # 日本時間（UTC+9）の「本日」を取得する
-    jst_time = datetime.now(timezone.utc) + timedelta(hours=9)
-    today_str = jst_time.strftime("%Y-%m-%d")
-    print(f"=== MLB 日本人選手成績速報（日本日付: {today_str}）===")
+    import sys
 
-    results = fetch_stats_for_date(today_str)
+    # コマンドライン引数から日付を取得（指定がなければ日本時間の今日）
+    if len(sys.argv) > 1:
+        target_date = sys.argv[1]
+        print(f"=== MLB 日本人選手成績速報（指定日付: {target_date}）===")
+    else:
+        # 日本時間（UTC+9）の「本日」を取得する
+        jst_time = datetime.now(timezone.utc) + timedelta(hours=9)
+        target_date = jst_time.strftime("%Y-%m-%d")
+        print(f"=== MLB 日本人選手成績速報（日本日付: {target_date}）===")
+
+    results = fetch_stats_for_date(target_date)
 
     if not results:
-        print("\n本日、出場した日本人選手は検出されませんでした。")
+        print(f"\n{target_date} に出場した日本人選手は検出されませんでした。")
+        write_outputs([], target_date)
         return
 
     for r in results:
@@ -431,7 +439,7 @@ def main():
                 f" 四球{p['BB']} 奪三振{p['SO']}（防御率: {p['ERA']}）"
             )
 
-    write_outputs(results, today_str)
+    write_outputs(results, target_date)
 
 
 if __name__ == "__main__":

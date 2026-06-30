@@ -56,14 +56,16 @@ function stopLoading() {
 async function loadStats() {
   startLoading();
 
+  const jstNow = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  const y = jstNow.getUTCFullYear();
+  const m = String(jstNow.getUTCMonth() + 1).padStart(2, '0');
+  const d = String(jstNow.getUTCDate()).padStart(2, '0');
+  const todayStr = `${y}-${m}-${d}`;
+
   const dateInput = document.getElementById("date-input");
   let selectedDate = dateInput ? dateInput.value : "";
   if (!selectedDate) {
-    const jstNow = new Date(Date.now() + 9 * 60 * 60 * 1000);
-    const y = jstNow.getUTCFullYear();
-    const m = String(jstNow.getUTCMonth() + 1).padStart(2, '0');
-    const d = String(jstNow.getUTCDate()).padStart(2, '0');
-    selectedDate = `${y}-${m}-${d}`;
+    selectedDate = todayStr;
   }
   
   // Netlify上の静的データファイル（JSON）を直接取得する
@@ -99,8 +101,12 @@ async function loadStats() {
 
   } catch (err) {
     stopLoading();
-    document.getElementById("error-message").textContent =
-      `データの取得に失敗しました。まだ本日のデータが生成されていないか、日付が間違っています。（詳細: ${err.message}）`;
+    if (selectedDate === todayStr) {
+      document.getElementById("error-message").textContent = "当日のデータは、午後３時以降に反映されます。";
+    } else {
+      document.getElementById("error-message").textContent =
+        `データの取得に失敗しました。まだデータが生成されていないか、日付が間違っています。（詳細: ${err.message}）`;
+    }
     show("error-box");
   }
 }
