@@ -8,6 +8,7 @@ import urllib.request
 import json
 import os
 import csv
+import concurrent.futures
 from datetime import datetime, timedelta, timezone
 
 # =============================================
@@ -28,6 +29,85 @@ JAPANESE_PLAYERS = {
     837227: "今井 達也 (HOU)",
     672960: "岡本 和真 (TOR)",
     808959: "村上 宗隆 (CWS)",
+}
+
+# =============================================
+# 球団名（英語 → カタカナ）の変換辞書
+# =============================================
+TEAM_TRANSLATIONS = {
+    # AL East
+    "Baltimore Orioles": "オリオールズ",
+    "Orioles": "オリオールズ",
+    "Boston Red Sox": "レッドソックス",
+    "Red Sox": "レッドソックス",
+    "New York Yankees": "ヤンキース",
+    "Yankees": "ヤンキース",
+    "Tampa Bay Rays": "レイズ",
+    "Rays": "レイズ",
+    "Toronto Blue Jays": "ブルージェイズ",
+    "Blue Jays": "ブルージェイズ",
+
+    # AL Central
+    "Chicago White Sox": "ホワイトソックス",
+    "White Sox": "ホワイトソックス",
+    "Cleveland Guardians": "ガーディアンズ",
+    "Guardians": "ガーディアンズ",
+    "Detroit Tigers": "タイガース",
+    "Tigers": "タイガース",
+    "Minnesota Twins": "ツインズ",
+    "Twins": "ツインズ",
+    "Kansas City Royals": "ロイヤルズ",
+    "Royals": "ロイヤルズ",
+
+    # AL West
+    "Houston Astros": "アストロズ",
+    "Astros": "アストロズ",
+    "Los Angeles Angels": "エンゼルス",
+    "Angels": "エンゼルス",
+    "Oakland Athletics": "アスレチックス",
+    "Athletics": "アスレチックス",
+    "Oakland A's": "アスレチックス",
+    "Seattle Mariners": "マリナーズ",
+    "Mariners": "マリナーズ",
+    "Texas Rangers": "レンジャーズ",
+    "Rangers": "レンジャーズ",
+
+    # NL East
+    "Philadelphia Phillies": "フィリーズ",
+    "Phillies": "フィリーズ",
+    "Atlanta Braves": "ブレーブス",
+    "Braves": "ブレーブス",
+    "Miami Marlins": "マーリンズ",
+    "Marlins": "マーリンズ",
+    "Washington Nationals": "ナショナルズ",
+    "Nationals": "ナショナルズ",
+    "New York Mets": "メッツ",
+    "Mets": "メッツ",
+
+    # NL Central
+    "Milwaukee Brewers": "ブルワーズ",
+    "Brewers": "ブルワーズ",
+    "St. Louis Cardinals": "カージナルス",
+    "Cardinals": "カージナルス",
+    "Cincinnati Reds": "レッズ",
+    "Reds": "レッズ",
+    "Pittsburgh Pirates": "パイレーツ",
+    "Pirates": "パイレーツ",
+    "Chicago Cubs": "カブス",
+    "Cubs": "カブス",
+
+    # NL West
+    "San Francisco Giants": "ジャイアンツ",
+    "Giants": "ジャイアンツ",
+    "Colorado Rockies": "ロッキーズ",
+    "Rockies": "ロッキーズ",
+    "Los Angeles Dodgers": "ドジャース",
+    "Dodgers": "ドジャース",
+    "San Diego Padres": "パドレス",
+    "Padres": "パドレス",
+    "Arizona Diamondbacks": "ダイヤモンドバックス",
+    "Diamondbacks": "ダイヤモンドバックス",
+    "D-backs": "ダイヤモンドバックス"
 }
 
 
@@ -72,17 +152,40 @@ def fetch_stats_for_date(target_date):
     games = schedule_data["dates"][0].get("games", [])
     results = []
 
-    for game in games:
+    def process_game(game):
+        game_results = []
         game_pk = game.get("gamePk")
         teams = game.get("teams", {})
-        away_team = teams.get("away", {}).get("team", {}).get("name", "Unknown")
-        home_team = teams.get("home", {}).get("team", {}).get("name", "Unknown")
+        away_info = teams.get("away", {})
+        home_info = teams.get("home", {})
+        away_team_en = away_info.get("team", {}).get("name", "Unknown")
+        home_team_en = home_info.get("team", {}).get("name", "Unknown")
+        away_team = TEAM_TRANSLATIONS.get(away_team_en, away_team_en)
+        home_team = TEAM_TRANSLATIONS.get(home_team_en, home_team_en)
+        
+        away_score = away_info.get("score")
+        home_score = home_info.get("score")
+        detailed_state = game.get("status", {}).get("detailedState", "")
+        
+        if away_score is not None and home_score is not None:
+            team_vs_display = f"{away_team} {away_score} - {home_score} {home_team}"
+        else:
+            team_vs_display = f"{away_team} vs {home_team}"
+            
+        if detailed_state in ["Final", "Completed Early", "Game Over"]:
+            team_vs_display += " (試合終了)"
+        elif detailed_state == "In Progress":
+            team_vs_display += " (試合中)"
+        elif detailed_state == "Postponed":
+            team_vs_display += " (延期)"
+        elif detailed_state in ["Scheduled", "Pre-Game", "Warmup"]:
+            team_vs_display += " (試合前)"
 
         boxscore = get_json(
             f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore"
         )
         if not boxscore:
-            continue
+            return game_results
 
         for team_type in ["away", "home"]:
             team_players = (
@@ -109,7 +212,7 @@ def fetch_stats_for_date(target_date):
                 result = {
                     "date": target_date,
                     "player": JAPANESE_PLAYERS[player_id],
-                    "team_vs": f"{away_team} vs {home_team}",
+                    "team_vs": team_vs_display,
                 }
                 if has_batted:
                     season_batting = player_data.get("seasonStats", {}).get("batting", {})
@@ -138,7 +241,16 @@ def fetch_stats_for_date(target_date):
                         "season_era": season_pitching.get("era", "-.--"),
                         "season_so": season_pitching.get("strikeOuts", 0),
                     }
-                results.append(result)
+                game_results.append(result)
+        return game_results
+
+    # 15試合程度のデータを並列で取得する（最大15スレッド）
+    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+        futures = [executor.submit(process_game, game) for game in games]
+        for future in concurrent.futures.as_completed(futures):
+            res = future.result()
+            if res:
+                results.extend(res)
 
     return results
 
@@ -192,13 +304,102 @@ def write_outputs(results, date_str):
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"\n📁 ファイルを保存しました：")
-    print(f"   CSV  → {csv_path}")
-    print(f"   JSON → {json_path}")
+    print(f"\n[保存] ファイルを保存しました：")
+    print(f"   CSV  : {csv_path}")
+    print(f"   JSON : {json_path}")
     print("\nヒント: Webサイト用のデータフォルダ (web_ui/data/) に保存しました。")
     print("        これらは自動的にウェブサイトへ公開されます。")
 
     return {"csv": csv_path, "json": json_path}
+
+
+def fetch_and_save_past_days(target_date_str, days=2):
+    """
+    指定日を含め、過去 `days` 日分のデータを自動取得し、保存する。
+    すでにその日のファイル(JSON)が存在し、かつデータが確定している（または直前に更新された）場合は取得をスキップする。
+    戻り値: 指定日(target_date_str)の成績データ (リスト)
+    """
+    try:
+        target_dt = datetime.strptime(target_date_str, "%Y-%m-%d")
+    except ValueError:
+        return []
+
+    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "web_ui", "data")
+
+    # 日本時間の「今日」を取得
+    jst_time = datetime.now(timezone.utc) + timedelta(hours=9)
+    today_str = jst_time.strftime("%Y-%m-%d")
+
+    for i in range(days):
+        current_dt = target_dt - timedelta(days=i)
+        current_date_str = current_dt.strftime("%Y-%m-%d")
+        
+        json_path = os.path.join(output_dir, f"{current_date_str}_stats.json")
+        
+        # すでにJSONファイルが存在する場合のスキップ判定
+        if os.path.exists(json_path):
+            # 1. 過去の日付（昨日以前）であれば、データは変わらないので常にスキップ
+            if current_date_str < today_str:
+                continue
+                
+            # 2. 今日の日付の場合、短時間キャッシュ（例: 5分）を適用
+            if current_date_str == today_str:
+                file_mtime = os.path.getmtime(json_path)
+                elapsed_time = datetime.now().timestamp() - file_mtime
+                if elapsed_time < 300:  # 5分以内
+                    print(f"[{current_date_str}] は最近更新されたため、キャッシュを使用します。")
+                    continue
+
+        # 3. キャッシュ切れ、またはファイルが存在しない、または本日分で5分以上経過している場合
+        # schedule API を1回叩いて、試合状況を確認する
+        try:
+            dt = datetime.strptime(current_date_str, "%Y-%m-%d")
+            us_date = (dt - timedelta(days=1)).strftime("%Y-%m-%d")
+        except ValueError:
+            us_date = current_date_str
+
+        schedule_url = f"https://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&date={us_date}"
+        schedule_data = get_json(schedule_url)
+        
+        is_final = True
+        if schedule_data and "dates" in schedule_data and schedule_data["dates"]:
+            games = schedule_data["dates"][0].get("games", [])
+            for game in games:
+                status = game.get("status", {})
+                abstract_state = status.get("abstractGameState", "")
+                detailed_state = status.get("detailedState", "")
+                if abstract_state in ["Preview", "Live"] or detailed_state in ["Scheduled", "Pre-Game", "Warmup", "In Progress"]:
+                    is_final = False
+                    break
+        
+        # すべての試合が終了しており、かつローカルにすでにJSONが存在するなら、APIからboxscoreを取得するのをスキップする
+        if is_final and os.path.exists(json_path):
+            print(f"[{current_date_str}] の試合はすべて終了しています。既存のデータを使用します。")
+            try:
+                os.utime(json_path, None) # mtimeを更新してキャッシュ時間を延ばす
+            except Exception:
+                pass
+            continue
+
+        # それ以外の場合は API から詳細データを取得
+        print(f"[{current_date_str}] の成績データを自動取得しています...")
+        results = fetch_stats_for_date(current_date_str)
+        if results:
+            write_outputs(results, current_date_str)
+        else:
+            if is_final:
+                write_outputs([], current_date_str)
+
+    # ターゲット日(target_date_str)のJSONファイルを読み込んで返す
+    target_json_path = os.path.join(output_dir, f"{target_date_str}_stats.json")
+    if os.path.exists(target_json_path):
+        try:
+            with open(target_json_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"ファイルの読み込みに失敗しました: {e}")
+            
+    return []
 
 
 def main():

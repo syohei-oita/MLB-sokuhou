@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2026-06-22",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "オリオールズ 12 - 1 ドジャース (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".297",
+      "season_hr": 16,
+      "season_rbi": 43
+    }
+  },
+  {
+    "date": "2026-06-22",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 1 - 3 マリナーズ (試合終了)",
+    "batting": {
+      "AB": 1,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".247",
+      "season_hr": 1,
+      "season_rbi": 10
+    }
+  }
+]

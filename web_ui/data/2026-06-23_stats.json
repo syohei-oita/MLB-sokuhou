@@ -1,0 +1,66 @@
+[
+  {
+    "date": "2026-06-23",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "アストロズ 2 - 4 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 2,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".234",
+      "season_hr": 17,
+      "season_rbi": 46
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 2 - 1 ツインズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".296",
+      "season_hr": 17,
+      "season_rbi": 44
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス vs メッツ (延期)",
+    "batting": {
+      "AB": 5,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 3,
+      "season_avg": ".264",
+      "season_hr": 10,
+      "season_rbi": 31
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 2 - 3 ロッキーズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".242",
+      "season_hr": 1,
+      "season_rbi": 10
+    }
+  }
+]

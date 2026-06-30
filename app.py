@@ -13,7 +13,7 @@ from datetime import datetime, timedelta, timezone
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE_DIR)
 
-from get_mlb_stats import fetch_stats_for_date, write_outputs
+from get_mlb_stats import fetch_stats_for_date, write_outputs, fetch_and_save_past_days
 
 app = Flask(__name__, static_folder="web_ui", static_url_path="")
 
@@ -42,11 +42,8 @@ def get_stats():
     if date_str < "2026-01-01":
         return jsonify({"error": "2026年1月1日より前のデータは取得できません"}), 400
 
-    results = fetch_stats_for_date(date_str)
-
-    # 同時にファイルも保存しておく
-    if results:
-        write_outputs(results, date_str)
+    # 指定日を含む過去2日分を自動取得（すでにある場合はスキップされる）
+    results = fetch_and_save_past_days(date_str, days=2)
 
     return jsonify({
         "date": date_str,
@@ -60,4 +57,4 @@ if __name__ == "__main__":
     print("  MLB 日本人選手成績 Web UI サーバを起動します")
     print("  ブラウザで http://localhost:5000 を開いてください")
     print("=" * 50)
-    app.run(debug=False, host="127.0.0.1", port=5000)
+    app.run(debug=True, host="127.0.0.1", port=5000)

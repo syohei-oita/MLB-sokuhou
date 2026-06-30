@@ -155,10 +155,19 @@ body {
   cursor: pointer;
 }
 
-/* 新しい通算成績カラムの強調表示用 */
+/* 今日の成績を目立たせる */
+.today-stat {
+  font-size: 1.1rem !important;
+  font-weight: 800 !important;
+  color: var(--sky-darkest) !important;
+}
+
+/* 通算成績を控えめにする */
 .season-stat {
   background-color: var(--sky-lightest);
-  color: var(--sky-darkest) !important;
+  color: var(--text-light) !important;
+  font-size: 0.85rem !important;
+  font-weight: 400 !important;
 }
 
 .refresh-btn {

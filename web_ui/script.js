@@ -4,6 +4,7 @@
 // テーブルを動的に組み立てて表示します。
 // ==============================================
 
+
 /** 日付入力欄の初期化 */
 function initDateInput() {
   const dateInput = document.getElementById("date-input");
@@ -38,7 +39,6 @@ function startLoading() {
   hide("stats-section");
   hide("no-data");
   hide("error-box");
-  hide("file-notice");
   show("loading");
   document.getElementById("refresh-btn").disabled = true;
 }
@@ -66,8 +66,8 @@ async function loadStats() {
     selectedDate = `${y}-${m}-${d}`;
   }
   
-  // Flask APIではなく、静的JSONファイルを読み込む
-  const url = `data/${selectedDate}_stats.json`;
+  // Flask API を呼び出してデータを取得（裏側で過去7日分も自動取得される）
+  const url = `/api/stats?date=${selectedDate}`;
 
   try {
     const res = await fetch(url);
@@ -78,10 +78,12 @@ async function loadStats() {
       throw new Error(errMsg);
     }
 
-    const data = await res.json(); // dataは配列 [...]
+    const data = await res.json(); // APIからのレスポンスは { date, count, results: [...] } 形式
     stopLoading();
 
-    if (!data || data.length === 0) {
+    const results = data.results || [];
+
+    if (!results || results.length === 0) {
       const titleEl = document.querySelector("#no-data .no-data-title");
       if (titleEl) {
         titleEl.textContent = `${selectedDate} の試合データがありません`;
@@ -90,8 +92,7 @@ async function loadStats() {
       return;
     }
 
-    renderStats(data);
-    showFileNotice(selectedDate);
+    renderStats(results);
     show("stats-section");
 
   } catch (err) {
@@ -123,12 +124,12 @@ function renderStats(results) {
       tr.innerHTML = `
         <td class="player-name">${r.player}</td>
         <td class="team-vs">${r.team_vs}</td>
-        <td class="num">${b.AB}</td>
-        <td class="num">${b.H}</td>
-        <td class="num ${b.HR > 0 ? "highlight-hr" : ""}">${b.HR}</td>
-        <td class="num">${b.RBI}</td>
-        <td class="num">${b.BB}</td>
-        <td class="num">${b.SO}</td>
+        <td class="num today-stat">${b.AB}</td>
+        <td class="num today-stat">${b.H}</td>
+        <td class="num today-stat ${b.HR > 0 ? "highlight-hr" : ""}">${b.HR}</td>
+        <td class="num today-stat">${b.RBI}</td>
+        <td class="num today-stat">${b.BB}</td>
+        <td class="num today-stat">${b.SO}</td>
         <td class="num season-stat">${b.season_avg || "-.---"}</td>
         <td class="num season-stat">${b.season_hr || "0"}</td>
         <td class="num season-stat">${b.season_rbi || "0"}</td>
@@ -144,12 +145,12 @@ function renderStats(results) {
       tr.innerHTML = `
         <td class="player-name">${r.player}</td>
         <td class="team-vs">${r.team_vs}</td>
-        <td class="num">${p.IP}</td>
-        <td class="num">${p.H}</td>
-        <td class="num">${p.ER}</td>
-        <td class="num">${p.BB}</td>
-        <td class="num ${p.SO >= 6 ? "highlight-so" : ""}">${p.SO}</td>
-        <td class="num">${p.ERA}</td>
+        <td class="num today-stat">${p.IP}</td>
+        <td class="num today-stat">${p.H}</td>
+        <td class="num today-stat">${p.ER}</td>
+        <td class="num today-stat">${p.BB}</td>
+        <td class="num today-stat ${p.SO >= 6 ? "highlight-so" : ""}">${p.SO}</td>
+        <td class="num today-stat">${p.ERA}</td>
         <td class="num season-stat">${p.season_wins || "0"}勝 ${p.season_losses || "0"}敗</td>
         <td class="num season-stat">${p.season_era || "-.--"}</td>
         <td class="num season-stat">${p.season_so || "0"}</td>
@@ -161,23 +162,6 @@ function renderStats(results) {
   // セクションの表示/非表示
   document.getElementById("batting-section").style.display  = hasBatting  ? "" : "none";
   document.getElementById("pitching-section").style.display = hasPitching ? "" : "none";
-}
-
-/**
- * ファイル保存の通知を表示する
- * @param {string} dateStr - YYYY-MM-DD 形式の日付
- */
-function showFileNotice(dateStr) {
-  const csvUrl = `data/${dateStr}_stats.csv`;
-  const jsonObjUrl = `data/${dateStr}_stats.json`;
-  
-  const csvBtn = document.getElementById("download-csv");
-  const jsonBtn = document.getElementById("download-json");
-  
-  if (csvBtn) csvBtn.href = csvUrl;
-  if (jsonBtn) jsonBtn.href = jsonObjUrl;
-
-  show("file-notice");
 }
 
 // ページ読み込み時に実行
