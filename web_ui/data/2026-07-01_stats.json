@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2026-07-01",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "パドレス 7 - 9 カブス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".268",
+      "season_hr": 12,
+      "season_rbi": 39
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 9 - 3 アスレチックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".296",
+      "season_hr": 18,
+      "season_rbi": 50
+    }
+  }
+]

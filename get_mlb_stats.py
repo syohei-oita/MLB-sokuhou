@@ -138,6 +138,10 @@ def fetch_stats_for_date(target_date):
     except ValueError:
         us_date = target_date
 
+    # 今日（日本時間）かどうかを判定しておく
+    jst_today_str = (datetime.now(timezone.utc) + timedelta(hours=9)).strftime("%Y-%m-%d")
+    is_today = (target_date == jst_today_str)
+
     schedule_url = (
         f"https://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&date={us_date}"
     )
@@ -173,7 +177,8 @@ def fetch_stats_for_date(target_date):
             team_vs_display = f"{away_team} vs {home_team}"
             
         if detailed_state in ["Final", "Completed Early", "Game Over"]:
-            team_vs_display += " (試合終了)"
+            if is_today:
+                team_vs_display += " (試合終了)"
         elif detailed_state == "In Progress":
             team_vs_display += " (試合中)"
         elif detailed_state == "Postponed":
