@@ -2,9 +2,9 @@ name: Send MLB Stats Daily Email
 
 on:
   schedule:
-    # 日本時間 15:00 は UTC 6:00 (15 - 9 = 6)
+    # 日本時間 17:00 は UTC 8:00 (17 - 9 = 8)
     # ※GitHub Actionsの仕様により、開始時間が数分〜数十分前後することがあります。
-    - cron: '0 6 * * *'
+    - cron: '0 8 * * *'
   workflow_dispatch:
     # GitHubの管理画面から手動でいつでも実行可能にするための設定
 

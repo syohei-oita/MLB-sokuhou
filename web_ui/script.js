@@ -100,7 +100,7 @@ async function loadStats() {
   } catch (err) {
     stopLoading();
     if (selectedDate === todayStr) {
-      document.getElementById("error-message").textContent = "当日のデータは、午後３時３０分以降に反映されます。";
+      document.getElementById("error-message").textContent = "当日のデータは、17時30分以降に反映されます。";
     } else {
       document.getElementById("error-message").textContent =
         `データの取得に失敗しました。まだデータが生成されていないか、日付が間違っています。（詳細: ${err.message}）`;
