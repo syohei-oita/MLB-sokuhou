@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2026-07-02",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "パドレス 3 - 23 カブス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 3,
+      "HR": 1,
+      "RBI": 3,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".274",
+      "season_hr": 13,
+      "season_rbi": 42
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "メッツ 3 - 9 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 2,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".240",
+      "season_hr": 19,
+      "season_rbi": 54
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 1 - 7 アスレチックス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".291",
+      "season_hr": 18,
+      "season_rbi": 50
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "ツインズ 8 - 3 アストロズ (試合終了)",
+    "pitching": {
+      "IP": "1.1",
+      "H": 4,
+      "ER": 5,
+      "BB": 5,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 5,
+      "season_losses": 4,
+      "season_era": "6.14",
+      "season_so": 60
+    }
+  }
+]
