@@ -2,7 +2,7 @@
   {
     "date": "2026-05-12",
     "player": "岡本 和真 (TOR)",
-    "team_vs": "レイズ 8 - 5 ブルージェイズ (試合終了)",
+    "team_vs": "レイズ 8 - 5 ブルージェイズ",
     "batting": {
       "AB": 4,
       "H": 1,
@@ -18,7 +18,7 @@
   {
     "date": "2026-05-12",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "ジャイアンツ 9 - 3 ドジャース (試合終了)",
+    "team_vs": "ジャイアンツ 9 - 3 ドジャース",
     "batting": {
       "AB": 5,
       "H": 0,
@@ -29,6 +29,23 @@
       "season_avg": ".233",
       "season_hr": 6,
       "season_rbi": 16
+    }
+  },
+  {
+    "date": "2026-05-12",
+    "player": "佐々木 朗希 (LAD)",
+    "team_vs": "ジャイアンツ 9 - 3 ドジャース",
+    "pitching": {
+      "IP": "5.0",
+      "H": 6,
+      "ER": 3,
+      "BB": 1,
+      "SO": 5,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 3,
+      "season_era": "5.88",
+      "season_so": 31
     }
   }
 ]

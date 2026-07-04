@@ -2,7 +2,7 @@
   {
     "date": "2026-05-13",
     "player": "吉田 正尚 (BOS)",
-    "team_vs": "フィリーズ 2 - 1 レッドソックス (試合終了)",
+    "team_vs": "フィリーズ 2 - 1 レッドソックス",
     "batting": {
       "AB": 3,
       "H": 1,
@@ -17,8 +17,24 @@
   },
   {
     "date": "2026-05-13",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "レイズ 7 - 6 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".242",
+      "season_hr": 10,
+      "season_rbi": 26
+    }
+  },
+  {
+    "date": "2026-05-13",
     "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 2 - 5 ブレーブス (試合終了)",
+    "team_vs": "カブス 2 - 5 ブレーブス",
     "batting": {
       "AB": 3,
       "H": 0,
@@ -34,7 +50,7 @@
   {
     "date": "2026-05-13",
     "player": "村上 宗隆 (CWS)",
-    "team_vs": "ロイヤルズ 5 - 6 ホワイトソックス (試合終了)",
+    "team_vs": "ロイヤルズ 5 - 6 ホワイトソックス",
     "batting": {
       "AB": 3,
       "H": 0,
@@ -49,41 +65,25 @@
   },
   {
     "date": "2026-05-13",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "レイズ 7 - 6 ブルージェイズ (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 2,
-      "season_avg": ".242",
-      "season_hr": 10,
-      "season_rbi": 26
-    }
-  },
-  {
-    "date": "2026-05-13",
-    "player": "今井 達也 (HOU)",
-    "team_vs": "マリナーズ 10 - 2 アストロズ (試合終了)",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 4 - 6 ブルワーズ",
     "pitching": {
-      "IP": "4.0",
-      "H": 5,
-      "ER": 6,
-      "BB": 3,
+      "IP": "2.0",
+      "H": 1,
+      "ER": 0,
+      "BB": 0,
       "SO": 3,
       "ERA": "-.--",
-      "season_wins": 1,
-      "season_losses": 1,
-      "season_era": "9.24",
-      "season_so": 16
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "0.00",
+      "season_so": 5
     }
   },
   {
     "date": "2026-05-13",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "ジャイアンツ 6 - 2 ドジャース (試合終了)",
+    "team_vs": "ジャイアンツ 6 - 2 ドジャース",
     "batting": {
       "AB": 4,
       "H": 2,
@@ -99,7 +99,7 @@
   {
     "date": "2026-05-13",
     "player": "山本 由伸 (LAD)",
-    "team_vs": "ジャイアンツ 6 - 2 ドジャース (試合終了)",
+    "team_vs": "ジャイアンツ 6 - 2 ドジャース",
     "pitching": {
       "IP": "6.1",
       "H": 6,
@@ -111,6 +111,23 @@
       "season_losses": 3,
       "season_era": "3.60",
       "season_so": 48
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "マリナーズ 10 - 2 アストロズ",
+    "pitching": {
+      "IP": "4.0",
+      "H": 5,
+      "ER": 6,
+      "BB": 3,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 1,
+      "season_era": "9.24",
+      "season_so": 16
     }
   }
 ]

@@ -1,24 +1,8 @@
 [
   {
     "date": "2026-06-12",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 8 - 6 パイレーツ (試合終了)",
-    "batting": {
-      "AB": 2,
-      "H": 2,
-      "HR": 1,
-      "RBI": 1,
-      "BB": 2,
-      "SO": 0,
-      "season_avg": ".305",
-      "season_hr": 13,
-      "season_rbi": 40
-    }
-  },
-  {
-    "date": "2026-06-12",
     "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 9 - 3 ロッキーズ (試合終了)",
+    "team_vs": "カブス 9 - 3 ロッキーズ",
     "batting": {
       "AB": 4,
       "H": 1,
@@ -29,6 +13,22 @@
       "season_avg": ".248",
       "season_hr": 10,
       "season_rbi": 26
+    }
+  },
+  {
+    "date": "2026-06-12",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 8 - 6 パイレーツ",
+    "batting": {
+      "AB": 2,
+      "H": 2,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".305",
+      "season_hr": 13,
+      "season_rbi": 40
     }
   }
 ]

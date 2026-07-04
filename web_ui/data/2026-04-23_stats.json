@@ -2,7 +2,7 @@
   {
     "date": "2026-04-23",
     "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 3 - 7 エンゼルス (試合終了)",
+    "team_vs": "ブルージェイズ 3 - 7 エンゼルス",
     "batting": {
       "AB": 3,
       "H": 1,
@@ -17,8 +17,40 @@
   },
   {
     "date": "2026-04-23",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 7 - 11 ダイヤモンドバックス",
+    "batting": {
+      "AB": 5,
+      "H": 3,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".256",
+      "season_hr": 10,
+      "season_rbi": 19
+    }
+  },
+  {
+    "date": "2026-04-23",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "フィリーズ 2 - 7 カブス",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".279",
+      "season_hr": 2,
+      "season_rbi": 6
+    }
+  },
+  {
+    "date": "2026-04-23",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 0 - 3 ジャイアンツ (試合終了)",
+    "team_vs": "ドジャース 0 - 3 ジャイアンツ",
     "batting": {
       "AB": 4,
       "H": 0,
@@ -45,34 +77,19 @@
   },
   {
     "date": "2026-04-23",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ホワイトソックス 7 - 11 ダイヤモンドバックス (試合終了)",
-    "batting": {
-      "AB": 5,
-      "H": 3,
-      "HR": 1,
-      "RBI": 2,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".256",
-      "season_hr": 10,
-      "season_rbi": 19
-    }
-  },
-  {
-    "date": "2026-04-23",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "フィリーズ 2 - 7 カブス (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 2,
-      "HR": 1,
-      "RBI": 2,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".279",
-      "season_hr": 2,
-      "season_rbi": 6
+    "player": "菅野 智之 (COL)",
+    "team_vs": "パドレス 3 - 8 ロッキーズ",
+    "pitching": {
+      "IP": "5.2",
+      "H": 5,
+      "ER": 1,
+      "BB": 1,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 2,
+      "season_losses": 1,
+      "season_era": "3.42",
+      "season_so": 19
     }
   }
 ]

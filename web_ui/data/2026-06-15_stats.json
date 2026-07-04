@@ -2,7 +2,7 @@
   {
     "date": "2026-06-15",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 4 - 6 ホワイトソックス (試合終了)",
+    "team_vs": "ドジャース 4 - 6 ホワイトソックス",
     "batting": {
       "AB": 2,
       "H": 0,
@@ -17,24 +17,8 @@
   },
   {
     "date": "2026-06-15",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "レンジャーズ 6 - 4 レッドソックス (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 2,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 2,
-      "season_avg": ".246",
-      "season_hr": 1,
-      "season_rbi": 10
-    }
-  },
-  {
-    "date": "2026-06-15",
     "player": "岡本 和真 (TOR)",
-    "team_vs": "ヤンキース 8 - 3 ブルージェイズ (試合終了)",
+    "team_vs": "ヤンキース 8 - 3 ブルージェイズ",
     "batting": {
       "AB": 4,
       "H": 2,
@@ -45,6 +29,39 @@
       "season_avg": ".235",
       "season_hr": 15,
       "season_rbi": 42
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "player": "菅野 智之 (COL)",
+    "team_vs": "ロッキーズ 23 - 9 アスレチックス",
+    "pitching": {
+      "IP": "5.0",
+      "H": 8,
+      "ER": 6,
+      "BB": 2,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 7,
+      "season_losses": 4,
+      "season_era": "4.54",
+      "season_so": 41
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レンジャーズ 6 - 4 レッドソックス",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".246",
+      "season_hr": 1,
+      "season_rbi": 10
     }
   }
 ]

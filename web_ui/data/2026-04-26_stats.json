@@ -1,24 +1,8 @@
 [
   {
     "date": "2026-04-26",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ガーディアンズ 3 - 5 ブルージェイズ (試合終了)",
-    "batting": {
-      "AB": 3,
-      "H": 2,
-      "HR": 1,
-      "RBI": 2,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".237",
-      "season_hr": 5,
-      "season_rbi": 11
-    }
-  },
-  {
-    "date": "2026-04-26",
     "player": "村上 宗隆 (CWS)",
-    "team_vs": "ナショナルズ 6 - 3 ホワイトソックス (試合終了)",
+    "team_vs": "ナショナルズ 6 - 3 ホワイトソックス",
     "batting": {
       "AB": 5,
       "H": 0,
@@ -33,8 +17,24 @@
   },
   {
     "date": "2026-04-26",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ガーディアンズ 3 - 5 ブルージェイズ",
+    "batting": {
+      "AB": 3,
+      "H": 2,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".237",
+      "season_hr": 5,
+      "season_rbi": 11
+    }
+  },
+  {
+    "date": "2026-04-26",
     "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 4 - 12 ドジャース (試合終了)",
+    "team_vs": "カブス 4 - 12 ドジャース",
     "batting": {
       "AB": 4,
       "H": 3,
@@ -50,7 +50,7 @@
   {
     "date": "2026-04-26",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "カブス 4 - 12 ドジャース (試合終了)",
+    "team_vs": "カブス 4 - 12 ドジャース",
     "batting": {
       "AB": 3,
       "H": 1,
@@ -61,6 +61,23 @@
       "season_avg": ".240",
       "season_hr": 5,
       "season_rbi": 11
+    }
+  },
+  {
+    "date": "2026-04-26",
+    "player": "佐々木 朗希 (LAD)",
+    "team_vs": "カブス 4 - 12 ドジャース",
+    "pitching": {
+      "IP": "5.0",
+      "H": 7,
+      "ER": 4,
+      "BB": 1,
+      "SO": 5,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 2,
+      "season_era": "6.35",
+      "season_so": 22
     }
   },
   {

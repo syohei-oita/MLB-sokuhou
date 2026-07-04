@@ -2,7 +2,7 @@
   {
     "date": "2026-05-26",
     "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 1 - 2 パイレーツ (試合終了)",
+    "team_vs": "カブス 1 - 2 パイレーツ",
     "batting": {
       "AB": 1,
       "H": 0,
@@ -18,7 +18,7 @@
   {
     "date": "2026-05-26",
     "player": "村上 宗隆 (CWS)",
-    "team_vs": "ツインズ 1 - 3 ホワイトソックス (試合終了)",
+    "team_vs": "ツインズ 1 - 3 ホワイトソックス",
     "batting": {
       "AB": 4,
       "H": 1,
@@ -33,25 +33,41 @@
   },
   {
     "date": "2026-05-26",
-    "player": "今井 達也 (HOU)",
-    "team_vs": "アストロズ 9 - 0 レンジャーズ (試合終了)",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "マーリンズ 8 - 2 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".215",
+      "season_hr": 10,
+      "season_rbi": 27
+    }
+  },
+  {
+    "date": "2026-05-26",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "フィリーズ 3 - 0 パドレス",
     "pitching": {
-      "IP": "6.0",
+      "IP": "2.0",
       "H": 0,
       "ER": 0,
-      "BB": 4,
-      "SO": 2,
+      "BB": 1,
+      "SO": 1,
       "ERA": "-.--",
-      "season_wins": 2,
-      "season_losses": 2,
-      "season_era": "6.17",
-      "season_so": 23
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "0.00",
+      "season_so": 13
     }
   },
   {
     "date": "2026-05-26",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "ロッキーズ 3 - 5 ドジャース (試合終了)",
+    "team_vs": "ロッキーズ 3 - 5 ドジャース",
     "batting": {
       "AB": 3,
       "H": 1,
@@ -66,18 +82,19 @@
   },
   {
     "date": "2026-05-26",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "マーリンズ 8 - 2 ブルージェイズ (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".215",
-      "season_hr": 10,
-      "season_rbi": 27
+    "player": "今井 達也 (HOU)",
+    "team_vs": "アストロズ 9 - 0 レンジャーズ",
+    "pitching": {
+      "IP": "6.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 4,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 2,
+      "season_losses": 2,
+      "season_era": "6.17",
+      "season_so": 23
     }
   }
 ]

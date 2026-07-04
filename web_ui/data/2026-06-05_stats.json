@@ -1,8 +1,41 @@
 [
   {
     "date": "2026-06-05",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 4 - 6 フィリーズ",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 1,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "0.54",
+      "season_so": 18
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 7 - 2 ブレーブス",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".225",
+      "season_hr": 13,
+      "season_rbi": 35
+    }
+  },
+  {
+    "date": "2026-06-05",
     "player": "今永 昇太 (CHC)",
-    "team_vs": "アスレチックス 6 - 7 カブス (試合終了)",
+    "team_vs": "アスレチックス 6 - 7 カブス",
     "pitching": {
       "IP": "6.0",
       "H": 6,
@@ -19,7 +52,7 @@
   {
     "date": "2026-06-05",
     "player": "鈴木 誠也 (CHC)",
-    "team_vs": "アスレチックス 6 - 7 カブス (試合終了)",
+    "team_vs": "アスレチックス 6 - 7 カブス",
     "batting": {
       "AB": 1,
       "H": 1,
@@ -30,22 +63,6 @@
       "season_avg": ".243",
       "season_hr": 8,
       "season_rbi": 20
-    }
-  },
-  {
-    "date": "2026-06-05",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 7 - 2 ブレーブス (試合終了)",
-    "batting": {
-      "AB": 5,
-      "H": 2,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 2,
-      "season_avg": ".225",
-      "season_hr": 13,
-      "season_rbi": 35
     }
   }
 ]

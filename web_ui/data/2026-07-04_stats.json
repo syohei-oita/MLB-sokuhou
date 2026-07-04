@@ -34,6 +34,22 @@
   },
   {
     "date": "2026-07-04",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 2 - 0 マリナーズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".240",
+      "season_hr": 19,
+      "season_rbi": 54
+    }
+  },
+  {
+    "date": "2026-07-04",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "パドレス 3 - 4 ドジャース (試合終了)",
     "batting": {
@@ -58,22 +74,6 @@
       "season_losses": 2,
       "season_era": "1.79",
       "season_so": 95
-    }
-  },
-  {
-    "date": "2026-07-04",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 2 - 0 マリナーズ (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".240",
-      "season_hr": 19,
-      "season_rbi": 54
     }
   }
 ]

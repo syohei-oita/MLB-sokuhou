@@ -1,8 +1,24 @@
 [
   {
     "date": "2026-06-25",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 10 - 3 メッツ",
+    "batting": {
+      "AB": 5,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 3,
+      "season_avg": ".264",
+      "season_hr": 10,
+      "season_rbi": 31
+    }
+  },
+  {
+    "date": "2026-06-25",
     "player": "今永 昇太 (CHC)",
-    "team_vs": "カブス 10 - 5 メッツ (試合終了)",
+    "team_vs": "カブス 10 - 5 メッツ",
     "pitching": {
       "IP": "5.1",
       "H": 4,
@@ -19,7 +35,7 @@
   {
     "date": "2026-06-25",
     "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 10 - 5 メッツ (試合終了)",
+    "team_vs": "カブス 10 - 5 メッツ",
     "batting": {
       "AB": 5,
       "H": 0,
@@ -34,24 +50,24 @@
   },
   {
     "date": "2026-06-25",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 10 - 3 メッツ (試合終了)",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "アストロズ 3 - 1 ブルージェイズ",
     "batting": {
-      "AB": 5,
+      "AB": 4,
       "H": 0,
       "HR": 0,
       "RBI": 0,
       "BB": 0,
-      "SO": 3,
-      "season_avg": ".264",
-      "season_hr": 10,
-      "season_rbi": 31
+      "SO": 2,
+      "season_avg": ".238",
+      "season_hr": 17,
+      "season_rbi": 49
     }
   },
   {
     "date": "2026-06-25",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 4 - 3 ツインズ (試合終了)",
+    "team_vs": "ドジャース 4 - 3 ツインズ",
     "batting": {
       "AB": 5,
       "H": 2,
@@ -74,22 +90,6 @@
       "season_losses": 2,
       "season_era": "1.58",
       "season_so": 86
-    }
-  },
-  {
-    "date": "2026-06-25",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "アストロズ 3 - 1 ブルージェイズ (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 2,
-      "season_avg": ".238",
-      "season_hr": 17,
-      "season_rbi": 49
     }
   }
 ]

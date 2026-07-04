@@ -2,7 +2,7 @@
   {
     "date": "2026-06-06",
     "player": "鈴木 誠也 (CHC)",
-    "team_vs": "ジャイアンツ 18 - 3 カブス (試合終了)",
+    "team_vs": "ジャイアンツ 18 - 3 カブス",
     "batting": {
       "AB": 1,
       "H": 1,
@@ -17,8 +17,24 @@
   },
   {
     "date": "2026-06-06",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "オリオールズ 13 - 3 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".230",
+      "season_hr": 13,
+      "season_rbi": 35
+    }
+  },
+  {
+    "date": "2026-06-06",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "エンゼルス 0 - 1 ドジャース (試合終了)",
+    "team_vs": "エンゼルス 0 - 1 ドジャース",
     "batting": {
       "AB": 4,
       "H": 0,
@@ -33,18 +49,36 @@
   },
   {
     "date": "2026-06-06",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "オリオールズ 13 - 3 ブルージェイズ (試合終了)",
-    "batting": {
-      "AB": 4,
+    "player": "佐々木 朗希 (LAD)",
+    "team_vs": "エンゼルス 0 - 1 ドジャース",
+    "pitching": {
+      "IP": "7.0",
       "H": 2,
-      "HR": 0,
-      "RBI": 0,
+      "ER": 0,
+      "BB": 2,
+      "SO": 10,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 3,
+      "season_era": "4.03",
+      "season_so": 60
+    }
+  },
+  {
+    "date": "2026-06-06",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "メッツ 5 - 0 パドレス",
+    "pitching": {
+      "IP": "0.1",
+      "H": 0,
+      "ER": 0,
       "BB": 0,
       "SO": 1,
-      "season_avg": ".230",
-      "season_hr": 13,
-      "season_rbi": 35
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "0.53",
+      "season_so": 19
     }
   }
 ]

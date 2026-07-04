@@ -1,8 +1,24 @@
 [
   {
     "date": "2026-06-10",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 3 - 4 レイズ",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".236",
+      "season_hr": 1,
+      "season_rbi": 10
+    }
+  },
+  {
+    "date": "2026-06-10",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 12 - 3 パイレーツ (試合終了)",
+    "team_vs": "ドジャース 12 - 3 パイレーツ",
     "batting": {
       "AB": 4,
       "H": 1,
@@ -18,7 +34,7 @@
   {
     "date": "2026-06-10",
     "player": "岡本 和真 (TOR)",
-    "team_vs": "フィリーズ 2 - 3 ブルージェイズ (試合終了)",
+    "team_vs": "フィリーズ 2 - 3 ブルージェイズ",
     "batting": {
       "AB": 3,
       "H": 1,
@@ -33,24 +49,8 @@
   },
   {
     "date": "2026-06-10",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "レッドソックス 3 - 4 レイズ (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".236",
-      "season_hr": 1,
-      "season_rbi": 10
-    }
-  },
-  {
-    "date": "2026-06-10",
     "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 3 - 7 ロッキーズ (試合終了)",
+    "team_vs": "カブス 3 - 7 ロッキーズ",
     "batting": {
       "AB": 4,
       "H": 1,
@@ -61,6 +61,40 @@
       "season_avg": ".247",
       "season_hr": 9,
       "season_rbi": 22
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "player": "菅野 智之 (COL)",
+    "team_vs": "カブス 3 - 7 ロッキーズ",
+    "pitching": {
+      "IP": "5.0",
+      "H": 6,
+      "ER": 3,
+      "BB": 2,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 6,
+      "season_losses": 4,
+      "season_era": "4.08",
+      "season_so": 39
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "レッズ 5 - 3 パドレス",
+    "pitching": {
+      "IP": "1.0",
+      "H": 1,
+      "ER": 1,
+      "BB": 0,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 1,
+      "season_era": "1.83",
+      "season_so": 21
     }
   }
 ]

@@ -1,40 +1,8 @@
 [
   {
     "date": "2026-05-21",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ホワイトソックス 4 - 5 マリナーズ (試合終了)",
-    "batting": {
-      "AB": 5,
-      "H": 2,
-      "HR": 0,
-      "RBI": 1,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".244",
-      "season_hr": 17,
-      "season_rbi": 33
-    }
-  },
-  {
-    "date": "2026-05-21",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "レッドソックス 4 - 3 ロイヤルズ (試合終了)",
-    "batting": {
-      "AB": 5,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".258",
-      "season_hr": 0,
-      "season_rbi": 6
-    }
-  },
-  {
-    "date": "2026-05-21",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 4 - 0 パドレス (試合終了)",
+    "team_vs": "ドジャース 4 - 0 パドレス",
     "batting": {
       "AB": 4,
       "H": 1,
@@ -61,8 +29,41 @@
   },
   {
     "date": "2026-05-21",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "ドジャース 4 - 0 パドレス",
+    "pitching": {
+      "IP": "1.1",
+      "H": 1,
+      "ER": 0,
+      "BB": 2,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "0.00",
+      "season_so": 12
+    }
+  },
+  {
+    "date": "2026-05-21",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 4 - 3 ロイヤルズ",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".258",
+      "season_hr": 0,
+      "season_rbi": 6
+    }
+  },
+  {
+    "date": "2026-05-21",
     "player": "鈴木 誠也 (CHC)",
-    "team_vs": "ブルワーズ 5 - 0 カブス (試合終了)",
+    "team_vs": "ブルワーズ 5 - 0 カブス",
     "batting": {
       "AB": 2,
       "H": 0,
@@ -77,8 +78,24 @@
   },
   {
     "date": "2026-05-21",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 4 - 5 マリナーズ",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".244",
+      "season_hr": 17,
+      "season_rbi": 33
+    }
+  },
+  {
+    "date": "2026-05-21",
     "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 2 - 1 ヤンキース (試合終了)",
+    "team_vs": "ブルージェイズ 2 - 1 ヤンキース",
     "batting": {
       "AB": 4,
       "H": 0,

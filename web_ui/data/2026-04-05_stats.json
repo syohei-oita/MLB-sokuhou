@@ -1,56 +1,8 @@
 [
   {
     "date": "2026-04-05",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "パドレス 3 - 2 レッドソックス (試合終了)",
-    "batting": {
-      "AB": 1,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".000",
-      "season_hr": 0,
-      "season_rbi": 0
-    }
-  },
-  {
-    "date": "2026-04-05",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 3 - 6 ホワイトソックス (試合終了)",
-    "batting": {
-      "AB": 3,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 0,
-      "season_avg": ".258",
-      "season_hr": 2,
-      "season_rbi": 3
-    }
-  },
-  {
-    "date": "2026-04-05",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ブルージェイズ 3 - 6 ホワイトソックス (試合終了)",
-    "batting": {
-      "AB": 3,
-      "H": 1,
-      "HR": 1,
-      "RBI": 3,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".250",
-      "season_hr": 4,
-      "season_rbi": 7
-    }
-  },
-  {
-    "date": "2026-04-05",
     "player": "今井 達也 (HOU)",
-    "team_vs": "アストロズ 11 - 0 アスレチックス (試合終了)",
+    "team_vs": "アストロズ 11 - 0 アスレチックス",
     "pitching": {
       "IP": "5.2",
       "H": 3,
@@ -67,7 +19,7 @@
   {
     "date": "2026-04-05",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 10 - 5 ナショナルズ (試合終了)",
+    "team_vs": "ドジャース 10 - 5 ナショナルズ",
     "batting": {
       "AB": 6,
       "H": 2,
@@ -78,6 +30,54 @@
       "season_avg": ".241",
       "season_hr": 1,
       "season_rbi": 4
+    }
+  },
+  {
+    "date": "2026-04-05",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 3 - 6 ホワイトソックス",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".258",
+      "season_hr": 2,
+      "season_rbi": 3
+    }
+  },
+  {
+    "date": "2026-04-05",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ブルージェイズ 3 - 6 ホワイトソックス",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 1,
+      "RBI": 3,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".250",
+      "season_hr": 4,
+      "season_rbi": 7
+    }
+  },
+  {
+    "date": "2026-04-05",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "パドレス 3 - 2 レッドソックス",
+    "batting": {
+      "AB": 1,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".000",
+      "season_hr": 0,
+      "season_rbi": 0
     }
   },
   {
