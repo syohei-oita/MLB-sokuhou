@@ -1,22 +1,6 @@
 [
   {
     "date": "2026-07-04",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カージナルス 17 - 1 カブス (試合終了)",
-    "batting": {
-      "AB": 3,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".271",
-      "season_hr": 13,
-      "season_rbi": 42
-    }
-  },
-  {
-    "date": "2026-07-04",
     "player": "岡本 和真 (TOR)",
     "team_vs": "ブルージェイズ 2 - 0 マリナーズ (試合終了)",
     "batting": {
@@ -46,6 +30,22 @@
       "season_losses": 7,
       "season_era": "8.66",
       "season_so": 42
+    }
+  },
+  {
+    "date": "2026-07-04",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カージナルス 17 - 1 カブス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".271",
+      "season_hr": 13,
+      "season_rbi": 42
     }
   },
   {
