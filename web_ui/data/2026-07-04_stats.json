@@ -1,18 +1,18 @@
 [
   {
     "date": "2026-07-04",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 2 - 0 マリナーズ (試合終了)",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カージナルス 17 - 1 カブス (試合終了)",
     "batting": {
-      "AB": 4,
-      "H": 1,
+      "AB": 3,
+      "H": 0,
       "HR": 0,
       "RBI": 0,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".240",
-      "season_hr": 19,
-      "season_rbi": 54
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".271",
+      "season_hr": 13,
+      "season_rbi": 42
     }
   },
   {
@@ -30,22 +30,6 @@
       "season_losses": 7,
       "season_era": "8.66",
       "season_so": 42
-    }
-  },
-  {
-    "date": "2026-07-04",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カージナルス 17 - 1 カブス (試合終了)",
-    "batting": {
-      "AB": 3,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".271",
-      "season_hr": 13,
-      "season_rbi": 42
     }
   },
   {
@@ -74,6 +58,22 @@
       "season_losses": 2,
       "season_era": "1.79",
       "season_so": 95
+    }
+  },
+  {
+    "date": "2026-07-04",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 2 - 0 マリナーズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".240",
+      "season_hr": 19,
+      "season_rbi": 54
     }
   }
 ]

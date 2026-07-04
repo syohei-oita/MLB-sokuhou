@@ -1,8 +1,25 @@
 [
   {
     "date": "2026-07-03",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 7 - 12 ドジャース",
+    "pitching": {
+      "IP": "1.0",
+      "H": 2,
+      "ER": 2,
+      "BB": 2,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 1,
+      "season_era": "2.08",
+      "season_so": 34
+    }
+  },
+  {
+    "date": "2026-07-03",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "パドレス 7 - 12 ドジャース (試合終了)",
+    "team_vs": "パドレス 7 - 12 ドジャース",
     "batting": {
       "AB": 4,
       "H": 1,
@@ -13,6 +30,23 @@
       "season_avg": ".291",
       "season_hr": 18,
       "season_rbi": 50
+    }
+  },
+  {
+    "date": "2026-07-03",
+    "player": "佐々木 朗希 (LAD)",
+    "team_vs": "パドレス 7 - 12 ドジャース",
+    "pitching": {
+      "IP": "3.0",
+      "H": 7,
+      "ER": 6,
+      "BB": 2,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 5,
+      "season_era": "5.40",
+      "season_so": 75
     }
   }
 ]
