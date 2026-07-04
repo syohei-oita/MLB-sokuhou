@@ -1,0 +1,116 @@
+[
+  {
+    "date": "2026-05-25",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "ツインズ 6 - 5 レッドソックス",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".263",
+      "season_hr": 1,
+      "season_rbi": 7
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "パイレーツ 4 - 1 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".214",
+      "season_hr": 10,
+      "season_rbi": 27
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 5 - 1 ブルワーズ",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".272",
+      "season_hr": 8,
+      "season_rbi": 28
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "player": "山本 由伸 (LAD)",
+    "team_vs": "ドジャース 5 - 1 ブルワーズ",
+    "pitching": {
+      "IP": "7.0",
+      "H": 7,
+      "ER": 1,
+      "BB": 1,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 4,
+      "season_losses": 4,
+      "season_era": "3.09",
+      "season_so": 59
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 5 - 8 ジャイアンツ",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".235",
+      "season_hr": 17,
+      "season_rbi": 36
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "アストロズ 8 - 5 カブス",
+    "pitching": {
+      "IP": "6.0",
+      "H": 7,
+      "ER": 7,
+      "BB": 1,
+      "SO": 6,
+      "ERA": "-.--",
+      "season_wins": 4,
+      "season_losses": 5,
+      "season_era": "4.04",
+      "season_so": 67
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "アストロズ 8 - 5 カブス",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".241",
+      "season_hr": 7,
+      "season_rbi": 17
+    }
+  }
+]

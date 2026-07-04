@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-06-13",
+    "player": "佐々木 朗希 (LAD)",
+    "team_vs": "ドジャース 2 - 8 ホワイトソックス",
+    "pitching": {
+      "IP": "4.1",
+      "H": 7,
+      "ER": 7,
+      "BB": 3,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 4,
+      "season_era": "4.76",
+      "season_so": 64
+    }
+  },
+  {
+    "date": "2026-06-13",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "アストロズ 10 - 8 ロイヤルズ",
+    "pitching": {
+      "IP": "0.2",
+      "H": 4,
+      "ER": 5,
+      "BB": 1,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 3,
+      "season_era": "6.43",
+      "season_so": 37
+    }
+  },
+  {
+    "date": "2026-06-13",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ヤンキース 5 - 8 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".230",
+      "season_hr": 14,
+      "season_rbi": 40
+    }
+  },
+  {
+    "date": "2026-06-13",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 5 - 1 ジャイアンツ",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".252",
+      "season_hr": 10,
+      "season_rbi": 27
+    }
+  }
+]

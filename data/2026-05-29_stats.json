@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-05-29",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ツインズ 2 - 6 ホワイトソックス",
+    "batting": {
+      "AB": 2,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 2,
+      "SO": 1,
+      "season_avg": ".242",
+      "season_hr": 20,
+      "season_rbi": 41
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 7 - 2 パイレーツ",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 0,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".239",
+      "season_hr": 7,
+      "season_rbi": 19
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 2 - 1 オリオールズ",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".215",
+      "season_hr": 11,
+      "season_rbi": 29
+    }
+  }
+]

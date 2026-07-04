@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-05-08",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "レッズ 3 - 8 カブス",
+    "pitching": {
+      "IP": "6.0",
+      "H": 6,
+      "ER": 1,
+      "BB": 3,
+      "SO": 10,
+      "ERA": "-.--",
+      "season_wins": 4,
+      "season_losses": 2,
+      "season_era": "2.28",
+      "season_so": 53
+    }
+  },
+  {
+    "date": "2026-05-08",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レイズ 8 - 4 レッドソックス",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".295",
+      "season_hr": 0,
+      "season_rbi": 5
+    }
+  }
+]

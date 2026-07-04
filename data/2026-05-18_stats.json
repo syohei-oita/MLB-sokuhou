@@ -1,0 +1,84 @@
+[
+  {
+    "date": "2026-05-18",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 8 - 3 マリナーズ",
+    "pitching": {
+      "IP": "2.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 2,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "0.00",
+      "season_so": 10
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 8 - 9 ホワイトソックス",
+    "batting": {
+      "AB": 6,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".258",
+      "season_hr": 7,
+      "season_rbi": 17
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "カブス 8 - 9 ホワイトソックス",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".235",
+      "season_hr": 17,
+      "season_rbi": 32
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 10 - 1 エンゼルス",
+    "batting": {
+      "AB": 5,
+      "H": 3,
+      "HR": 0,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".258",
+      "season_hr": 7,
+      "season_rbi": 24
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "player": "佐々木 朗希 (LAD)",
+    "team_vs": "ドジャース 10 - 1 エンゼルス",
+    "pitching": {
+      "IP": "7.0",
+      "H": 4,
+      "ER": 1,
+      "BB": 0,
+      "SO": 8,
+      "ERA": "-.--",
+      "season_wins": 2,
+      "season_losses": 3,
+      "season_era": "5.09",
+      "season_so": 39
+    }
+  }
+]

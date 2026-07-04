@@ -1,0 +1,84 @@
+[
+  {
+    "date": "2026-06-24",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "アストロズ 9 - 7 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 3,
+      "HR": 0,
+      "RBI": 3,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".241",
+      "season_hr": 17,
+      "season_rbi": 49
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 12 - 3 ツインズ",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".293",
+      "season_hr": 17,
+      "season_rbi": 45
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 9 - 6 メッツ",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 1,
+      "season_avg": ".270",
+      "season_hr": 10,
+      "season_rbi": 31
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "カブス 9 - 6 メッツ",
+    "pitching": {
+      "IP": "3.2",
+      "H": 3,
+      "ER": 7,
+      "BB": 5,
+      "SO": 6,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 6,
+      "season_era": "10.08",
+      "season_so": 34
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "ブレーブス 6 - 7 パドレス",
+    "pitching": {
+      "IP": "2.1",
+      "H": 3,
+      "ER": 1,
+      "BB": 1,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 1,
+      "season_era": "1.67",
+      "season_so": 31
+    }
+  }
+]

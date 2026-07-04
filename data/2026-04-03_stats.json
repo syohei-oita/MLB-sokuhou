@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2026-04-03",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ vs ホワイトソックス (延期)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 4,
+      "season_avg": ".250",
+      "season_hr": 2,
+      "season_rbi": 3
+    }
+  },
+  {
+    "date": "2026-04-03",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ブルージェイズ vs ホワイトソックス (延期)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".240",
+      "season_hr": 3,
+      "season_rbi": 4
+    }
+  }
+]

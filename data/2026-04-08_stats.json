@@ -1,0 +1,84 @@
+[
+  {
+    "date": "2026-04-08",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "オリオールズ 4 - 2 ホワイトソックス",
+    "batting": {
+      "AB": 1,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".200",
+      "season_hr": 4,
+      "season_rbi": 7
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 4 - 1 ブルージェイズ",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".286",
+      "season_hr": 3,
+      "season_rbi": 8
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "player": "山本 由伸 (LAD)",
+    "team_vs": "ドジャース 4 - 1 ブルージェイズ",
+    "pitching": {
+      "IP": "6.0",
+      "H": 5,
+      "ER": 1,
+      "BB": 1,
+      "SO": 6,
+      "ERA": "-.--",
+      "season_wins": 2,
+      "season_losses": 1,
+      "season_era": "2.50",
+      "season_so": 14
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ドジャース 4 - 1 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".262",
+      "season_hr": 2,
+      "season_rbi": 3
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "player": "菊池 雄星 (HOU)",
+    "team_vs": "ブレーブス 7 - 2 エンゼルス",
+    "pitching": {
+      "IP": "5.0",
+      "H": 6,
+      "ER": 4,
+      "BB": 1,
+      "SO": 8,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 2,
+      "season_era": "6.75",
+      "season_so": 16
+    }
+  }
+]

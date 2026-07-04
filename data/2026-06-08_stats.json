@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-06-08",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 1 - 6 ヤンキース",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".244",
+      "season_hr": 1,
+      "season_rbi": 10
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "オリオールズ 4 - 6 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".235",
+      "season_hr": 13,
+      "season_rbi": 37
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "メッツ 7 - 3 パドレス",
+    "pitching": {
+      "IP": "1.2",
+      "H": 2,
+      "ER": 2,
+      "BB": 0,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "1.45",
+      "season_so": 20
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ジャイアンツ 2 - 1 カブス",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".247",
+      "season_hr": 9,
+      "season_rbi": 21
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "エンゼルス 13 - 5 ドジャース",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".302",
+      "season_hr": 11,
+      "season_rbi": 35
+    }
+  }
+]

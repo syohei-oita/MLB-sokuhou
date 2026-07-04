@@ -1,0 +1,133 @@
+[
+  {
+    "date": "2026-04-11",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "パイレーツ 2 - 0 カブス",
+    "pitching": {
+      "IP": "6.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 1,
+      "SO": 9,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 1,
+      "season_era": "2.81",
+      "season_so": 20
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "パイレーツ 2 - 0 カブス",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".333",
+      "season_hr": 0,
+      "season_rbi": 0
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ツインズ 4 - 10 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".220",
+      "season_hr": 2,
+      "season_rbi": 3
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 0 - 2 ロイヤルズ",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 3,
+      "season_avg": ".178",
+      "season_hr": 4,
+      "season_rbi": 7
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "player": "菅野 智之 (COL)",
+    "team_vs": "ロッキーズ 2 - 5 パドレス",
+    "pitching": {
+      "IP": "6.0",
+      "H": 4,
+      "ER": 2,
+      "BB": 0,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 0,
+      "season_era": "2.16",
+      "season_so": 12
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 2 - 3 カージナルス",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".263",
+      "season_hr": 0,
+      "season_rbi": 3
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "アストロズ 6 - 9 マリナーズ",
+    "pitching": {
+      "IP": "0.1",
+      "H": 1,
+      "ER": 3,
+      "BB": 4,
+      "SO": 0,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 0,
+      "season_era": "7.27",
+      "season_so": 13
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "レンジャーズ 7 - 8 ドジャース",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".265",
+      "season_hr": 3,
+      "season_rbi": 8
+    }
+  }
+]

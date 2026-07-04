@@ -1,0 +1,100 @@
+[
+  {
+    "date": "2026-04-27",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "ロッキーズ 3 - 0 メッツ",
+    "pitching": {
+      "IP": "2.2",
+      "H": 3,
+      "ER": 3,
+      "BB": 3,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 4,
+      "season_era": "9.00",
+      "season_so": 23
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ガーディアンズ 2 - 4 ブルージェイズ",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".229",
+      "season_hr": 5,
+      "season_rbi": 11
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ナショナルズ 2 - 1 ホワイトソックス",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".232",
+      "season_hr": 11,
+      "season_rbi": 20
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "カブス 0 - 6 ドジャース",
+    "pitching": {
+      "IP": "5.1",
+      "H": 6,
+      "ER": 4,
+      "BB": 3,
+      "SO": 6,
+      "ERA": "-.--",
+      "season_wins": 2,
+      "season_losses": 2,
+      "season_era": "2.88",
+      "season_so": 38
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 0 - 6 ドジャース",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 3,
+      "season_avg": ".305",
+      "season_hr": 4,
+      "season_rbi": 8
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "カブス 0 - 6 ドジャース",
+    "batting": {
+      "AB": 3,
+      "H": 3,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".262",
+      "season_hr": 6,
+      "season_rbi": 12
+    }
+  }
+]
