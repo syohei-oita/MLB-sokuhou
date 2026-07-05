@@ -1,18 +1,34 @@
 [
   {
     "date": "2026-06-18",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "ロッキーズ 6 - 8 カブス",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 3 - 0 レッドソックス",
     "batting": {
-      "AB": 3,
-      "H": 2,
+      "AB": 4,
+      "H": 0,
       "HR": 0,
-      "RBI": 1,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".261",
-      "season_hr": 10,
-      "season_rbi": 29
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".230",
+      "season_hr": 15,
+      "season_rbi": 42
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "ブルージェイズ 3 - 0 レッドソックス",
+    "batting": {
+      "AB": 2,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".248",
+      "season_hr": 1,
+      "season_rbi": 10
     }
   },
   {
@@ -45,34 +61,18 @@
   },
   {
     "date": "2026-06-18",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 3 - 0 レッドソックス",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ロッキーズ 6 - 8 カブス",
     "batting": {
-      "AB": 4,
-      "H": 0,
+      "AB": 3,
+      "H": 2,
       "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 2,
-      "season_avg": ".230",
-      "season_hr": 15,
-      "season_rbi": 42
-    }
-  },
-  {
-    "date": "2026-06-18",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "ブルージェイズ 3 - 0 レッドソックス",
-    "batting": {
-      "AB": 2,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".248",
-      "season_hr": 1,
-      "season_rbi": 10
+      "RBI": 1,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".261",
+      "season_hr": 10,
+      "season_rbi": 29
     }
   }
 ]

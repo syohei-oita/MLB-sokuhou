@@ -34,6 +34,22 @@
   },
   {
     "date": "2026-06-29",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "ヤンキース 4 - 5 レッドソックス",
+    "batting": {
+      "AB": 1,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".250",
+      "season_hr": 2,
+      "season_rbi": 11
+    }
+  },
+  {
+    "date": "2026-06-29",
     "player": "鈴木 誠也 (CHC)",
     "team_vs": "カブス 4 - 3 ブルワーズ",
     "batting": {
@@ -79,22 +95,6 @@
       "season_losses": 1,
       "season_era": "1.53",
       "season_so": 33
-    }
-  },
-  {
-    "date": "2026-06-29",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "ヤンキース 4 - 5 レッドソックス",
-    "batting": {
-      "AB": 1,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".250",
-      "season_hr": 2,
-      "season_rbi": 11
     }
   }
 ]

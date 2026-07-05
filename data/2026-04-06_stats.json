@@ -51,22 +51,6 @@
   },
   {
     "date": "2026-04-06",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "パドレス 8 - 6 レッドソックス",
-    "batting": {
-      "AB": 4,
-      "H": 3,
-      "HR": 0,
-      "RBI": 3,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".231",
-      "season_hr": 0,
-      "season_rbi": 3
-    }
-  },
-  {
-    "date": "2026-04-06",
     "player": "菅野 智之 (COL)",
     "team_vs": "フィリーズ 1 - 4 ロッキーズ",
     "pitching": {
@@ -112,6 +96,22 @@
       "season_avg": ".226",
       "season_hr": 4,
       "season_rbi": 7
+    }
+  },
+  {
+    "date": "2026-04-06",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "パドレス 8 - 6 レッドソックス",
+    "batting": {
+      "AB": 4,
+      "H": 3,
+      "HR": 0,
+      "RBI": 3,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".231",
+      "season_hr": 0,
+      "season_rbi": 3
     }
   },
   {

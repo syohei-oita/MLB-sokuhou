@@ -83,22 +83,6 @@
   },
   {
     "date": "2026-04-11",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "レッドソックス 2 - 3 カージナルス",
-    "batting": {
-      "AB": 3,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".263",
-      "season_hr": 0,
-      "season_rbi": 3
-    }
-  },
-  {
-    "date": "2026-04-11",
     "player": "今井 達也 (HOU)",
     "team_vs": "アストロズ 6 - 9 マリナーズ",
     "pitching": {
@@ -112,6 +96,22 @@
       "season_losses": 0,
       "season_era": "7.27",
       "season_so": 13
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 2 - 3 カージナルス",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".263",
+      "season_hr": 0,
+      "season_rbi": 3
     }
   },
   {

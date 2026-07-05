@@ -17,6 +17,22 @@
   },
   {
     "date": "2026-05-09",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "マリナーズ 12 - 8 ホワイトソックス",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".237",
+      "season_hr": 15,
+      "season_rbi": 29
+    }
+  },
+  {
+    "date": "2026-05-09",
     "player": "岡本 和真 (TOR)",
     "team_vs": "エンゼルス 0 - 2 ブルージェイズ",
     "batting": {
@@ -33,18 +49,18 @@
   },
   {
     "date": "2026-05-09",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "マリナーズ 12 - 8 ホワイトソックス",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 7 - 1 レンジャーズ",
     "batting": {
-      "AB": 4,
+      "AB": 3,
       "H": 1,
       "HR": 1,
-      "RBI": 1,
-      "BB": 1,
-      "SO": 2,
-      "season_avg": ".237",
-      "season_hr": 15,
-      "season_rbi": 29
+      "RBI": 2,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".304",
+      "season_hr": 7,
+      "season_rbi": 16
     }
   },
   {
@@ -77,22 +93,6 @@
       "SO": 1,
       "season_avg": ".248",
       "season_hr": 6,
-      "season_rbi": 16
-    }
-  },
-  {
-    "date": "2026-05-09",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 7 - 1 レンジャーズ",
-    "batting": {
-      "AB": 3,
-      "H": 1,
-      "HR": 1,
-      "RBI": 2,
-      "BB": 2,
-      "SO": 0,
-      "season_avg": ".304",
-      "season_hr": 7,
       "season_rbi": 16
     }
   }

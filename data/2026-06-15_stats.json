@@ -1,22 +1,6 @@
 [
   {
     "date": "2026-06-15",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 4 - 6 ホワイトソックス",
-    "batting": {
-      "AB": 2,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 2,
-      "SO": 2,
-      "season_avg": ".302",
-      "season_hr": 14,
-      "season_rbi": 41
-    }
-  },
-  {
-    "date": "2026-06-15",
     "player": "岡本 和真 (TOR)",
     "team_vs": "ヤンキース 8 - 3 ブルージェイズ",
     "batting": {
@@ -29,6 +13,22 @@
       "season_avg": ".235",
       "season_hr": 15,
       "season_rbi": 42
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 4 - 6 ホワイトソックス",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 2,
+      "season_avg": ".302",
+      "season_hr": 14,
+      "season_rbi": 41
     }
   },
   {

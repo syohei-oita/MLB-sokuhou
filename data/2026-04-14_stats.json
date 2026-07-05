@@ -1,23 +1,6 @@
 [
   {
     "date": "2026-04-14",
-    "player": "菊池 雄星 (HOU)",
-    "team_vs": "エンゼルス 10 - 11 ヤンキース",
-    "pitching": {
-      "IP": "3.1",
-      "H": 4,
-      "ER": 4,
-      "BB": 4,
-      "SO": 3,
-      "ERA": "-.--",
-      "season_wins": 0,
-      "season_losses": 2,
-      "season_era": "7.50",
-      "season_so": 19
-    }
-  },
-  {
-    "date": "2026-04-14",
     "player": "鈴木 誠也 (CHC)",
     "team_vs": "カブス 7 - 13 フィリーズ",
     "batting": {
@@ -30,6 +13,23 @@
       "season_avg": ".214",
       "season_hr": 0,
       "season_rbi": 1
+    }
+  },
+  {
+    "date": "2026-04-14",
+    "player": "菊池 雄星 (LAA)",
+    "team_vs": "エンゼルス 10 - 11 ヤンキース",
+    "pitching": {
+      "IP": "3.1",
+      "H": 4,
+      "ER": 4,
+      "BB": 4,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 2,
+      "season_era": "7.50",
+      "season_so": 19
     }
   },
   {

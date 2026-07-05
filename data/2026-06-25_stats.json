@@ -17,6 +17,22 @@
   },
   {
     "date": "2026-06-25",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "アストロズ 3 - 1 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".238",
+      "season_hr": 17,
+      "season_rbi": 49
+    }
+  },
+  {
+    "date": "2026-06-25",
     "player": "今永 昇太 (CHC)",
     "team_vs": "カブス 10 - 5 メッツ",
     "pitching": {
@@ -46,22 +62,6 @@
       "season_avg": ".258",
       "season_hr": 10,
       "season_rbi": 31
-    }
-  },
-  {
-    "date": "2026-06-25",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "アストロズ 3 - 1 ブルージェイズ",
-    "batting": {
-      "AB": 4,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 2,
-      "season_avg": ".238",
-      "season_hr": 17,
-      "season_rbi": 49
     }
   },
   {

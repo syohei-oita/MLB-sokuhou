@@ -18,23 +18,6 @@
   },
   {
     "date": "2026-06-13",
-    "player": "今井 達也 (HOU)",
-    "team_vs": "アストロズ 10 - 8 ロイヤルズ",
-    "pitching": {
-      "IP": "0.2",
-      "H": 4,
-      "ER": 5,
-      "BB": 1,
-      "SO": 1,
-      "ERA": "-.--",
-      "season_wins": 3,
-      "season_losses": 3,
-      "season_era": "6.43",
-      "season_so": 37
-    }
-  },
-  {
-    "date": "2026-06-13",
     "player": "岡本 和真 (TOR)",
     "team_vs": "ヤンキース 5 - 8 ブルージェイズ",
     "batting": {
@@ -63,6 +46,23 @@
       "season_avg": ".252",
       "season_hr": 10,
       "season_rbi": 27
+    }
+  },
+  {
+    "date": "2026-06-13",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "アストロズ 10 - 8 ロイヤルズ",
+    "pitching": {
+      "IP": "0.2",
+      "H": 4,
+      "ER": 5,
+      "BB": 1,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 3,
+      "season_era": "6.43",
+      "season_so": 37
     }
   }
 ]

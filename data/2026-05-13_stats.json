@@ -49,22 +49,6 @@
   },
   {
     "date": "2026-05-13",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ロイヤルズ 5 - 6 ホワイトソックス",
-    "batting": {
-      "AB": 3,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 3,
-      "season_avg": ".228",
-      "season_hr": 15,
-      "season_rbi": 29
-    }
-  },
-  {
-    "date": "2026-05-13",
     "player": "松井 裕樹 (SD)",
     "team_vs": "パドレス 4 - 6 ブルワーズ",
     "pitching": {
@@ -78,6 +62,23 @@
       "season_losses": 0,
       "season_era": "0.00",
       "season_so": 5
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "マリナーズ 10 - 2 アストロズ",
+    "pitching": {
+      "IP": "4.0",
+      "H": 5,
+      "ER": 6,
+      "BB": 3,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 1,
+      "season_era": "9.24",
+      "season_so": 16
     }
   },
   {
@@ -115,19 +116,18 @@
   },
   {
     "date": "2026-05-13",
-    "player": "今井 達也 (HOU)",
-    "team_vs": "マリナーズ 10 - 2 アストロズ",
-    "pitching": {
-      "IP": "4.0",
-      "H": 5,
-      "ER": 6,
-      "BB": 3,
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ロイヤルズ 5 - 6 ホワイトソックス",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
       "SO": 3,
-      "ERA": "-.--",
-      "season_wins": 1,
-      "season_losses": 1,
-      "season_era": "9.24",
-      "season_so": 16
+      "season_avg": ".228",
+      "season_hr": 15,
+      "season_rbi": 29
     }
   }
 ]

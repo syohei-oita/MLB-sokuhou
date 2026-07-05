@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-04-30",
-    "player": "菊池 雄星 (HOU)",
+    "player": "菊池 雄星 (LAA)",
     "team_vs": "エンゼルス 2 - 3 ホワイトソックス",
     "pitching": {
       "IP": "2.0",
@@ -30,22 +30,6 @@
       "season_avg": ".236",
       "season_hr": 12,
       "season_rbi": 23
-    }
-  },
-  {
-    "date": "2026-04-30",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "マーリンズ 3 - 2 ドジャース",
-    "batting": {
-      "AB": 2,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 3,
-      "SO": 1,
-      "season_avg": ".273",
-      "season_hr": 6,
-      "season_rbi": 13
     }
   },
   {
@@ -79,6 +63,22 @@
       "season_losses": 1,
       "season_era": "2.84",
       "season_so": 21
+    }
+  },
+  {
+    "date": "2026-04-30",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "マーリンズ 3 - 2 ドジャース",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 3,
+      "SO": 1,
+      "season_avg": ".273",
+      "season_hr": 6,
+      "season_rbi": 13
     }
   }
 ]

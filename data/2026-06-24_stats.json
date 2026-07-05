@@ -17,22 +17,6 @@
   },
   {
     "date": "2026-06-24",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 12 - 3 ツインズ",
-    "batting": {
-      "AB": 3,
-      "H": 0,
-      "HR": 0,
-      "RBI": 1,
-      "BB": 1,
-      "SO": 2,
-      "season_avg": ".293",
-      "season_hr": 17,
-      "season_rbi": 45
-    }
-  },
-  {
-    "date": "2026-06-24",
     "player": "鈴木 誠也 (CHC)",
     "team_vs": "カブス 9 - 6 メッツ",
     "batting": {
@@ -62,6 +46,22 @@
       "season_losses": 6,
       "season_era": "10.08",
       "season_so": 34
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 12 - 3 ツインズ",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".293",
+      "season_hr": 17,
+      "season_rbi": 45
     }
   },
   {

@@ -17,23 +17,6 @@
   },
   {
     "date": "2026-03-25",
-    "player": "菅野 智之 (COL)",
-    "team_vs": "タイガース 11 - 8 ロッキーズ",
-    "pitching": {
-      "IP": "4.1",
-      "H": 6,
-      "ER": 2,
-      "BB": 3,
-      "SO": 4,
-      "ERA": "-.--",
-      "season_wins": 0,
-      "season_losses": 0,
-      "season_era": "2.45",
-      "season_so": 5
-    }
-  },
-  {
-    "date": "2026-03-25",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "エンゼルス 3 - 0 ドジャース",
     "batting": {
@@ -58,6 +41,23 @@
       "season_losses": 1,
       "season_era": "3.24",
       "season_so": 15
+    }
+  },
+  {
+    "date": "2026-03-25",
+    "player": "菅野 智之 (COL)",
+    "team_vs": "タイガース 11 - 8 ロッキーズ",
+    "pitching": {
+      "IP": "4.1",
+      "H": 6,
+      "ER": 2,
+      "BB": 3,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "2.45",
+      "season_so": 5
     }
   }
 ]

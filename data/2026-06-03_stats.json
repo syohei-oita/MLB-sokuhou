@@ -17,22 +17,6 @@
   },
   {
     "date": "2026-06-03",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 3 - 4 ブレーブス",
-    "batting": {
-      "AB": 3,
-      "H": 2,
-      "HR": 1,
-      "RBI": 2,
-      "BB": 1,
-      "SO": 0,
-      "season_avg": ".221",
-      "season_hr": 13,
-      "season_rbi": 35
-    }
-  },
-  {
-    "date": "2026-06-03",
     "player": "松井 裕樹 (SD)",
     "team_vs": "パドレス 2 - 3 フィリーズ",
     "pitching": {
@@ -50,18 +34,18 @@
   },
   {
     "date": "2026-06-03",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 6 - 5 ダイヤモンドバックス",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 3 - 4 ブレーブス",
     "batting": {
-      "AB": 4,
+      "AB": 3,
       "H": 2,
-      "HR": 0,
+      "HR": 1,
       "RBI": 2,
       "BB": 1,
-      "SO": 1,
-      "season_avg": ".293",
-      "season_hr": 10,
-      "season_rbi": 33
+      "SO": 0,
+      "season_avg": ".221",
+      "season_hr": 13,
+      "season_rbi": 35
     }
   },
   {
@@ -95,6 +79,22 @@
       "season_losses": 4,
       "season_era": "3.98",
       "season_so": 36
+    }
+  },
+  {
+    "date": "2026-06-03",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 6 - 5 ダイヤモンドバックス",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 2,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".293",
+      "season_hr": 10,
+      "season_rbi": 33
     }
   }
 ]

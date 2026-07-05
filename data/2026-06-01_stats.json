@@ -17,22 +17,6 @@
   },
   {
     "date": "2026-06-01",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "レッドソックス 9 - 4 ガーディアンズ",
-    "batting": {
-      "AB": 5,
-      "H": 2,
-      "HR": 0,
-      "RBI": 2,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".259",
-      "season_hr": 1,
-      "season_rbi": 10
-    }
-  },
-  {
-    "date": "2026-06-01",
     "player": "松井 裕樹 (SD)",
     "team_vs": "パドレス 2 - 4 ナショナルズ",
     "pitching": {
@@ -50,6 +34,22 @@
   },
   {
     "date": "2026-06-01",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 9 - 4 ガーディアンズ",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 0,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".259",
+      "season_hr": 1,
+      "season_rbi": 10
+    }
+  },
+  {
+    "date": "2026-06-01",
     "player": "今井 達也 (HOU)",
     "team_vs": "ブルワーズ 2 - 0 アストロズ",
     "pitching": {
@@ -63,6 +63,22 @@
       "season_losses": 3,
       "season_era": "5.52",
       "season_so": 28
+    }
+  },
+  {
+    "date": "2026-06-01",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 1 - 5 カージナルス",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".244",
+      "season_hr": 7,
+      "season_rbi": 19
     }
   },
   {
@@ -96,22 +112,6 @@
       "season_losses": 4,
       "season_era": "2.86",
       "season_so": 69
-    }
-  },
-  {
-    "date": "2026-06-01",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 1 - 5 カージナルス",
-    "batting": {
-      "AB": 4,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 2,
-      "season_avg": ".244",
-      "season_hr": 7,
-      "season_rbi": 19
     }
   }
 ]

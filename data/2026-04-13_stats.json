@@ -33,22 +33,6 @@
   },
   {
     "date": "2026-04-13",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "パイレーツ 6 - 7 カブス",
-    "batting": {
-      "AB": 3,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 2,
-      "SO": 1,
-      "season_avg": ".200",
-      "season_hr": 0,
-      "season_rbi": 0
-    }
-  },
-  {
-    "date": "2026-04-13",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "レンジャーズ 5 - 2 ドジャース",
     "batting": {
@@ -78,6 +62,22 @@
       "season_losses": 2,
       "season_era": "6.23",
       "season_so": 15
+    }
+  },
+  {
+    "date": "2026-04-13",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "パイレーツ 6 - 7 カブス",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 1,
+      "season_avg": ".200",
+      "season_hr": 0,
+      "season_rbi": 0
     }
   }
 ]

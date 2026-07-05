@@ -33,6 +33,23 @@
   },
   {
     "date": "2026-04-19",
+    "player": "菊池 雄星 (LAA)",
+    "team_vs": "パドレス 4 - 1 エンゼルス",
+    "pitching": {
+      "IP": "6.0",
+      "H": 4,
+      "ER": 0,
+      "BB": 1,
+      "SO": 8,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 2,
+      "season_era": "5.63",
+      "season_so": 27
+    }
+  },
+  {
+    "date": "2026-04-19",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "ドジャース 3 - 4 ロッキーズ",
     "batting": {
@@ -61,23 +78,6 @@
       "season_avg": ".205",
       "season_hr": 2,
       "season_rbi": 5
-    }
-  },
-  {
-    "date": "2026-04-19",
-    "player": "菊池 雄星 (HOU)",
-    "team_vs": "パドレス 4 - 1 エンゼルス",
-    "pitching": {
-      "IP": "6.0",
-      "H": 4,
-      "ER": 0,
-      "BB": 1,
-      "SO": 8,
-      "ERA": "-.--",
-      "season_wins": 0,
-      "season_losses": 2,
-      "season_era": "5.63",
-      "season_so": 27
     }
   }
 ]

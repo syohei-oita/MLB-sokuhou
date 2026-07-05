@@ -1,23 +1,6 @@
 [
   {
     "date": "2026-06-07",
-    "player": "今井 達也 (HOU)",
-    "team_vs": "アスレチックス 2 - 13 アストロズ",
-    "pitching": {
-      "IP": "5.0",
-      "H": 5,
-      "ER": 2,
-      "BB": 3,
-      "SO": 8,
-      "ERA": "-.--",
-      "season_wins": 3,
-      "season_losses": 3,
-      "season_era": "5.24",
-      "season_so": 36
-    }
-  },
-  {
-    "date": "2026-06-07",
     "player": "岡本 和真 (TOR)",
     "team_vs": "オリオールズ 4 - 6 ブルージェイズ",
     "batting": {
@@ -30,6 +13,22 @@
       "season_avg": ".235",
       "season_hr": 13,
       "season_rbi": 36
+    }
+  },
+  {
+    "date": "2026-06-07",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ジャイアンツ 2 - 3 カブス",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".247",
+      "season_hr": 9,
+      "season_rbi": 21
     }
   },
   {
@@ -67,18 +66,19 @@
   },
   {
     "date": "2026-06-07",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "ジャイアンツ 2 - 3 カブス",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".247",
-      "season_hr": 9,
-      "season_rbi": 21
+    "player": "今井 達也 (HOU)",
+    "team_vs": "アスレチックス 2 - 13 アストロズ",
+    "pitching": {
+      "IP": "5.0",
+      "H": 5,
+      "ER": 2,
+      "BB": 3,
+      "SO": 8,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 3,
+      "season_era": "5.24",
+      "season_so": 36
     }
   }
 ]
