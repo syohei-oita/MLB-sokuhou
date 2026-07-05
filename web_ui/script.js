@@ -86,6 +86,9 @@ async function loadStats() {
     const results = Array.isArray(data) ? data : (data.results || []);
 
     if (!results || results.length === 0) {
+      if (selectedDate === todayStr) {
+        throw new Error("本日分のデータはまだ生成されていません。");
+      }
       const titleEl = document.querySelector("#no-data .no-data-title");
       if (titleEl) {
         titleEl.textContent = `${selectedDate} の試合データがありません`;
