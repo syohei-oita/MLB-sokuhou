@@ -103,7 +103,12 @@ async function loadStats() {
   } catch (err) {
     stopLoading();
     if (selectedDate === todayStr) {
-      document.getElementById("error-message").textContent = "当日のデータは、午後1時30分と午後5時30分以降に順次反映されます。";
+      const dayOfWeek = jstNow.getDay();
+      let msg = "当日のデータは、午後1時30分と午後5時30分以降に順次反映されます。"; // 火〜土のデフォルト
+      if (dayOfWeek === 0 || dayOfWeek === 1) { // 日曜日(0) または 月曜日(1)
+        msg = "当日のデータは、午前11時30分と午後3時30分以降に順次反映されます。";
+      }
+      document.getElementById("error-message").textContent = msg;
     } else {
       document.getElementById("error-message").textContent =
         `データの取得に失敗しました。まだデータが生成されていないか、日付が間違っています。（詳細: ${err.message}）`;

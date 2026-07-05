@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-04-07",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "ブルワーズ 8 - 6 レッドソックス",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".250",
+      "season_hr": 0,
+      "season_rbi": 3
+    }
+  },
+  {
+    "date": "2026-04-07",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "ドジャース 14 - 2 ブルージェイズ",
     "batting": {
@@ -28,22 +44,6 @@
       "SO": 1,
       "season_avg": ".263",
       "season_hr": 2,
-      "season_rbi": 3
-    }
-  },
-  {
-    "date": "2026-04-07",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "ブルワーズ 8 - 6 レッドソックス",
-    "batting": {
-      "AB": 3,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 2,
-      "SO": 0,
-      "season_avg": ".250",
-      "season_hr": 0,
       "season_rbi": 3
     }
   },

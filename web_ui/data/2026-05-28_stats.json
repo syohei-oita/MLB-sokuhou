@@ -33,22 +33,6 @@
   },
   {
     "date": "2026-05-28",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ツインズ 2 - 15 ホワイトソックス",
-    "batting": {
-      "AB": 4,
-      "H": 2,
-      "HR": 1,
-      "RBI": 1,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".240",
-      "season_hr": 20,
-      "season_rbi": 40
-    }
-  },
-  {
-    "date": "2026-05-28",
     "player": "吉田 正尚 (BOS)",
     "team_vs": "ブレーブス 0 - 8 レッドソックス",
     "batting": {
@@ -61,6 +45,22 @@
       "season_avg": ".255",
       "season_hr": 1,
       "season_rbi": 7
+    }
+  },
+  {
+    "date": "2026-05-28",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ツインズ 2 - 15 ホワイトソックス",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".240",
+      "season_hr": 20,
+      "season_rbi": 40
     }
   },
   {

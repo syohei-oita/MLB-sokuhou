@@ -33,22 +33,6 @@
   },
   {
     "date": "2026-04-15",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 9 - 7 ブルワーズ",
-    "batting": {
-      "AB": 4,
-      "H": 2,
-      "HR": 0,
-      "RBI": 1,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".224",
-      "season_hr": 2,
-      "season_rbi": 4
-    }
-  },
-  {
-    "date": "2026-04-15",
     "player": "吉田 正尚 (BOS)",
     "team_vs": "レッドソックス 0 - 6 ツインズ",
     "batting": {
@@ -61,6 +45,22 @@
       "season_avg": ".304",
       "season_hr": 0,
       "season_rbi": 3
+    }
+  },
+  {
+    "date": "2026-04-15",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 9 - 7 ブルワーズ",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".224",
+      "season_hr": 2,
+      "season_rbi": 4
     }
   },
   {

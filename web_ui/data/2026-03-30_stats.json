@@ -1,22 +1,6 @@
 [
   {
     "date": "2026-03-30",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "レッドソックス 2 - 3 レッズ",
-    "batting": {
-      "AB": 2,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 2,
-      "SO": 0,
-      "season_avg": ".000",
-      "season_hr": 0,
-      "season_rbi": 0
-    }
-  },
-  {
-    "date": "2026-03-30",
     "player": "岡本 和真 (TOR)",
     "team_vs": "アスレチックス 2 - 5 ブルージェイズ",
     "batting": {
@@ -62,6 +46,22 @@
       "season_losses": 0,
       "season_era": "13.50",
       "season_so": 4
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 2 - 3 レッズ",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".000",
+      "season_hr": 0,
+      "season_rbi": 0
     }
   },
   {

@@ -17,22 +17,6 @@
   },
   {
     "date": "2026-05-25",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "パイレーツ 4 - 1 ブルージェイズ",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".214",
-      "season_hr": 10,
-      "season_rbi": 27
-    }
-  },
-  {
-    "date": "2026-05-25",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "ドジャース 5 - 1 ブルワーズ",
     "batting": {
@@ -66,18 +50,18 @@
   },
   {
     "date": "2026-05-25",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ホワイトソックス 5 - 8 ジャイアンツ",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "パイレーツ 4 - 1 ブルージェイズ",
     "batting": {
       "AB": 4,
-      "H": 0,
+      "H": 1,
       "HR": 0,
       "RBI": 0,
-      "BB": 1,
-      "SO": 2,
-      "season_avg": ".235",
-      "season_hr": 17,
-      "season_rbi": 36
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".214",
+      "season_hr": 10,
+      "season_rbi": 27
     }
   },
   {
@@ -111,6 +95,22 @@
       "season_avg": ".241",
       "season_hr": 7,
       "season_rbi": 17
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 5 - 8 ジャイアンツ",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".235",
+      "season_hr": 17,
+      "season_rbi": 36
     }
   }
 ]

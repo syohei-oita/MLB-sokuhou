@@ -1,18 +1,18 @@
 [
   {
     "date": "2026-05-19",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 6 - 7 ヤンキース",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 3 - 1 ロイヤルズ",
     "batting": {
       "AB": 4,
       "H": 1,
       "HR": 0,
       "RBI": 0,
       "BB": 0,
-      "SO": 3,
-      "season_avg": ".234",
-      "season_hr": 10,
-      "season_rbi": 27
+      "SO": 0,
+      "season_avg": ".259",
+      "season_hr": 0,
+      "season_rbi": 6
     }
   },
   {
@@ -46,6 +46,22 @@
       "season_avg": ".266",
       "season_hr": 7,
       "season_rbi": 17
+    }
+  },
+  {
+    "date": "2026-05-19",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 6 - 7 ヤンキース",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 3,
+      "season_avg": ".234",
+      "season_hr": 10,
+      "season_rbi": 27
     }
   },
   {
@@ -112,22 +128,6 @@
       "season_avg": ".242",
       "season_hr": 17,
       "season_rbi": 32
-    }
-  },
-  {
-    "date": "2026-05-19",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "レッドソックス 3 - 1 ロイヤルズ",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".259",
-      "season_hr": 0,
-      "season_rbi": 6
     }
   }
 ]

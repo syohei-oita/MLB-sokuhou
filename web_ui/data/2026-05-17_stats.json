@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-05-17",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 2 - 1 タイガース",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".233",
+      "season_hr": 10,
+      "season_rbi": 27
+    }
+  },
+  {
+    "date": "2026-05-17",
     "player": "菅野 智之 (COL)",
     "team_vs": "ダイヤモンドバックス 2 - 4 ロッキーズ",
     "pitching": {
@@ -14,22 +30,6 @@
       "season_losses": 3,
       "season_era": "4.02",
       "season_so": 25
-    }
-  },
-  {
-    "date": "2026-05-17",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 2 - 1 タイガース",
-    "batting": {
-      "AB": 4,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".233",
-      "season_hr": 10,
-      "season_rbi": 27
     }
   },
   {

@@ -1,22 +1,6 @@
 [
   {
     "date": "2026-04-17",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "レイズ 5 - 3 ホワイトソックス",
-    "batting": {
-      "AB": 4,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 3,
-      "season_avg": ".167",
-      "season_hr": 5,
-      "season_rbi": 9
-    }
-  },
-  {
-    "date": "2026-04-17",
     "player": "岡本 和真 (TOR)",
     "team_vs": "ブルージェイズ 1 - 2 ブルワーズ",
     "batting": {
@@ -29,6 +13,22 @@
       "season_avg": ".200",
       "season_hr": 2,
       "season_rbi": 4
+    }
+  },
+  {
+    "date": "2026-04-17",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "レイズ 5 - 3 ホワイトソックス",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 3,
+      "season_avg": ".167",
+      "season_hr": 5,
+      "season_rbi": 9
     }
   }
 ]

@@ -1,23 +1,6 @@
 [
   {
     "date": "2026-05-30",
-    "player": "松井 裕樹 (SD)",
-    "team_vs": "パドレス 7 - 5 ナショナルズ",
-    "pitching": {
-      "IP": "2.0",
-      "H": 1,
-      "ER": 1,
-      "BB": 0,
-      "SO": 1,
-      "ERA": "-.--",
-      "season_wins": 0,
-      "season_losses": 0,
-      "season_era": "0.64",
-      "season_so": 14
-    }
-  },
-  {
-    "date": "2026-05-30",
     "player": "吉田 正尚 (BOS)",
     "team_vs": "レッドソックス 3 - 4 ガーディアンズ",
     "batting": {
@@ -50,6 +33,23 @@
   },
   {
     "date": "2026-05-30",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 7 - 5 ナショナルズ",
+    "pitching": {
+      "IP": "2.0",
+      "H": 1,
+      "ER": 1,
+      "BB": 0,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "0.64",
+      "season_so": 14
+    }
+  },
+  {
+    "date": "2026-05-30",
     "player": "村上 宗隆 (CWS)",
     "team_vs": "タイガース 3 - 4 ホワイトソックス",
     "batting": {
@@ -62,22 +62,6 @@
       "season_avg": ".240",
       "season_hr": 20,
       "season_rbi": 41
-    }
-  },
-  {
-    "date": "2026-05-30",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "フィリーズ 2 - 4 ドジャース",
-    "batting": {
-      "AB": 4,
-      "H": 3,
-      "HR": 1,
-      "RBI": 1,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".279",
-      "season_hr": 10,
-      "season_rbi": 31
     }
   },
   {
@@ -111,6 +95,22 @@
       "season_avg": ".252",
       "season_hr": 7,
       "season_rbi": 19
+    }
+  },
+  {
+    "date": "2026-05-30",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "フィリーズ 2 - 4 ドジャース",
+    "batting": {
+      "AB": 4,
+      "H": 3,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".279",
+      "season_hr": 10,
+      "season_rbi": 31
     }
   }
 ]

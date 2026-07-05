@@ -1,38 +1,6 @@
 [
   {
     "date": "2026-04-02",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ロッキーズ 2 - 1 ブルージェイズ",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 2,
-      "season_avg": ".292",
-      "season_hr": 2,
-      "season_rbi": 3
-    }
-  },
-  {
-    "date": "2026-04-02",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "レッドソックス 4 - 6 アストロズ",
-    "batting": {
-      "AB": 3,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".000",
-      "season_hr": 0,
-      "season_rbi": 0
-    }
-  },
-  {
-    "date": "2026-04-02",
     "player": "村上 宗隆 (CWS)",
     "team_vs": "ホワイトソックス 0 - 10 マーリンズ",
     "batting": {
@@ -49,7 +17,23 @@
   },
   {
     "date": "2026-04-02",
-    "player": "菊池 雄星 (HOU)",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ロッキーズ 2 - 1 ブルージェイズ",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".292",
+      "season_hr": 2,
+      "season_rbi": 3
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "player": "菊池 雄星 (LAA)",
     "team_vs": "エンゼルス 2 - 6 カブス",
     "pitching": {
       "IP": "5.1",
@@ -62,6 +46,22 @@
       "season_losses": 1,
       "season_era": "6.52",
       "season_so": 8
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 4 - 6 アストロズ",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".000",
+      "season_hr": 0,
+      "season_rbi": 0
     }
   },
   {

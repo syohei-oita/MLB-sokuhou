@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-05-07",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 2 - 8 エンゼルス",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 4,
+      "season_avg": ".237",
+      "season_hr": 14,
+      "season_rbi": 28
+    }
+  },
+  {
+    "date": "2026-05-07",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "ドジャース 12 - 2 アストロズ",
     "batting": {
@@ -29,22 +45,6 @@
       "season_avg": ".246",
       "season_hr": 10,
       "season_rbi": 23
-    }
-  },
-  {
-    "date": "2026-05-07",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ホワイトソックス 2 - 8 エンゼルス",
-    "batting": {
-      "AB": 4,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 4,
-      "season_avg": ".237",
-      "season_hr": 14,
-      "season_rbi": 28
     }
   },
   {

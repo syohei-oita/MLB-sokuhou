@@ -17,18 +17,18 @@
   },
   {
     "date": "2026-04-24",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "ヤンキース 4 - 2 レッドソックス",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 4 - 1 ダイヤモンドバックス",
     "batting": {
-      "AB": 4,
-      "H": 0,
+      "AB": 5,
+      "H": 1,
       "HR": 0,
       "RBI": 0,
       "BB": 0,
-      "SO": 0,
-      "season_avg": ".262",
-      "season_hr": 0,
-      "season_rbi": 5
+      "SO": 3,
+      "season_avg": ".253",
+      "season_hr": 10,
+      "season_rbi": 19
     }
   },
   {
@@ -49,18 +49,18 @@
   },
   {
     "date": "2026-04-24",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ホワイトソックス 4 - 1 ダイヤモンドバックス",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "ヤンキース 4 - 2 レッドソックス",
     "batting": {
-      "AB": 5,
-      "H": 1,
+      "AB": 4,
+      "H": 0,
       "HR": 0,
       "RBI": 0,
       "BB": 0,
-      "SO": 3,
-      "season_avg": ".253",
-      "season_hr": 10,
-      "season_rbi": 19
+      "SO": 0,
+      "season_avg": ".262",
+      "season_hr": 0,
+      "season_rbi": 5
     }
   }
 ]

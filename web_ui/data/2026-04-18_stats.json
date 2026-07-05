@@ -66,6 +66,22 @@
   },
   {
     "date": "2026-04-18",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 3 - 6 ダイヤモンドバックス",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".188",
+      "season_hr": 2,
+      "season_rbi": 4
+    }
+  },
+  {
+    "date": "2026-04-18",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "ドジャース 7 - 1 ロッキーズ",
     "batting": {
@@ -95,22 +111,6 @@
       "season_losses": 1,
       "season_era": "3.92",
       "season_so": 15
-    }
-  },
-  {
-    "date": "2026-04-18",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 3 - 6 ダイヤモンドバックス",
-    "batting": {
-      "AB": 4,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".188",
-      "season_hr": 2,
-      "season_rbi": 4
     }
   }
 ]
