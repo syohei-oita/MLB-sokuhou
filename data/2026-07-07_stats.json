@@ -1,22 +1,6 @@
 [
   {
     "date": "2026-07-07",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 1 - 10 ジャイアンツ (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 1,
-      "RBI": 1,
-      "BB": 0,
-      "SO": 1,
-      "season_avg": ".235",
-      "season_hr": 20,
-      "season_rbi": 55
-    }
-  },
-  {
-    "date": "2026-07-07",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "ロッキーズ 7 - 8 ドジャース (試合終了)",
     "batting": {
@@ -28,6 +12,22 @@
       "SO": 0,
       "season_avg": ".294",
       "season_hr": 19,
+      "season_rbi": 55
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 1 - 10 ジャイアンツ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".235",
+      "season_hr": 20,
       "season_rbi": 55
     }
   }
