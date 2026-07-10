@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-07-10",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 2 - 3 オリオールズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 3,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".266",
+      "season_hr": 15,
+      "season_rbi": 47
+    }
+  },
+  {
+    "date": "2026-07-10",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "ダイヤモンドバックス 3 - 1 パドレス (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 1,
+      "ER": 1,
+      "BB": 2,
+      "SO": 0,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 1,
+      "season_era": "2.23",
+      "season_so": 35
+    }
+  }
+]
