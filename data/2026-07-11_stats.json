@@ -1,6 +1,38 @@
 [
   {
     "date": "2026-07-11",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ダイヤモンドバックス 9 - 3 ドジャース (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".290",
+      "season_hr": 21,
+      "season_rbi": 57
+    }
+  },
+  {
+    "date": "2026-07-11",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 5 - 3 パドレス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 1,
+      "RBI": 3,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".238",
+      "season_hr": 22,
+      "season_rbi": 62
+    }
+  },
+  {
+    "date": "2026-07-11",
     "player": "今永 昇太 (CHC)",
     "team_vs": "カブス 0 - 4 レッズ (試合終了)",
     "pitching": {
@@ -34,34 +66,18 @@
   },
   {
     "date": "2026-07-11",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 5 - 3 パドレス (試合終了)",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "アスレチックス 1 - 14 ホワイトソックス (試合終了)",
     "batting": {
-      "AB": 3,
+      "AB": 5,
       "H": 1,
-      "HR": 1,
-      "RBI": 3,
-      "BB": 1,
-      "SO": 2,
-      "season_avg": ".238",
-      "season_hr": 22,
-      "season_rbi": 62
-    }
-  },
-  {
-    "date": "2026-07-11",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "ダイヤモンドバックス 9 - 3 ドジャース (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 1,
+      "HR": 0,
       "RBI": 1,
       "BB": 0,
-      "SO": 2,
-      "season_avg": ".290",
-      "season_hr": 21,
-      "season_rbi": 57
+      "SO": 4,
+      "season_avg": ".239",
+      "season_hr": 20,
+      "season_rbi": 42
     }
   },
   {
@@ -95,22 +111,6 @@
       "season_losses": 7,
       "season_era": "8.69",
       "season_so": 47
-    }
-  },
-  {
-    "date": "2026-07-11",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "アスレチックス 1 - 14 ホワイトソックス (試合終了)",
-    "batting": {
-      "AB": 5,
-      "H": 1,
-      "HR": 0,
-      "RBI": 1,
-      "BB": 0,
-      "SO": 4,
-      "season_avg": ".239",
-      "season_hr": 20,
-      "season_rbi": 42
     }
   }
 ]
