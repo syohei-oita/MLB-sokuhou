@@ -34,9 +34,11 @@ def get_stats():
     
     # ユーザーが指定した日付を取得。無ければ「本日（日本時間）」をデフォルトにする
     date_str = request.args.get("date")
+    jst_time = datetime.now(timezone.utc) + timedelta(hours=9)
+    today_str = jst_time.strftime("%Y-%m-%d")
+    
     if not date_str:
-        jst_time = datetime.now(timezone.utc) + timedelta(hours=9)
-        date_str = jst_time.strftime("%Y-%m-%d")
+        date_str = today_str
         
     # 制限: 2026-01-01 より古い日付はエラーにする
     if date_str < "2026-01-01":
@@ -44,6 +46,12 @@ def get_stats():
 
     # 指定日を含む過去2日分を自動取得（すでにある場合はスキップされる）
     results = fetch_and_save_past_days(date_str, days=2)
+
+    # 昨日以前（過去）のデータの場合、「 (試合終了)」という文字列を削除
+    if date_str < today_str:
+        for r in results:
+            if "team_vs" in r:
+                r["team_vs"] = r["team_vs"].replace(" (試合終了)", "")
 
     return jsonify({
         "date": date_str,
