@@ -97,7 +97,7 @@ async function loadStats() {
       return;
     }
 
-    renderStats(results);
+    renderStats(results, selectedDate, todayStr);
     show("stats-section");
 
   } catch (err) {
@@ -120,11 +120,22 @@ async function loadStats() {
 /**
  * 成績データをテーブルに描画する
  * @param {Array} results - /api/stats の results 配列
+ * @param {string} selectedDate - 表示対象の日付 (YYYY-MM-DD)
+ * @param {string} todayStr - 今日の日付 (YYYY-MM-DD)
  */
-function renderStats(results) {
+function renderStats(results, selectedDate, todayStr) {
   // テーブルをリセット
   clear("batting-body");
   clear("pitching-body");
+
+  // 過去の日付の場合、team_vs から「 (試合終了)」を取り除く
+  const isPastDate = selectedDate && todayStr && selectedDate < todayStr;
+  if (isPastDate) {
+    results = results.map(r => ({
+      ...r,
+      team_vs: (r.team_vs || "").replace(" (試合終了)", "")
+    }));
+  }
 
   let hasBatting  = false;
   let hasPitching = false;
