@@ -17,22 +17,6 @@
   },
   {
     "date": "2026-07-12",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 5 - 3 レッズ (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 0,
-      "RBI": 1,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".269",
-      "season_hr": 15,
-      "season_rbi": 48
-    }
-  },
-  {
-    "date": "2026-07-12",
     "player": "吉田 正尚 (BOS)",
     "team_vs": "レッドソックス 4 - 0 メッツ (試合終了)",
     "batting": {
@@ -45,6 +29,22 @@
       "season_avg": ".266",
       "season_hr": 3,
       "season_rbi": 16
+    }
+  },
+  {
+    "date": "2026-07-12",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 5 - 3 レッズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".269",
+      "season_hr": 15,
+      "season_rbi": 48
     }
   },
   {
