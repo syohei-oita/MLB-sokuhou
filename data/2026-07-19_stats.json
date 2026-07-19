@@ -35,22 +35,6 @@
   },
   {
     "date": "2026-07-19",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "ツインズ 2 - 6 カブス (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 2,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".272",
-      "season_hr": 15,
-      "season_rbi": 48
-    }
-  },
-  {
-    "date": "2026-07-19",
     "player": "村上 宗隆 (CWS)",
     "team_vs": "ホワイトソックス 0 - 1 ブルージェイズ (試合終了)",
     "batting": {
@@ -79,6 +63,22 @@
       "season_avg": ".234",
       "season_hr": 22,
       "season_rbi": 62
+    }
+  },
+  {
+    "date": "2026-07-19",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ツインズ 2 - 6 カブス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".272",
+      "season_hr": 15,
+      "season_rbi": 48
     }
   },
   {
