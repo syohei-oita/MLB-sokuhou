@@ -1,0 +1,133 @@
+[
+  {
+    "date": "2026-07-20",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 1 - 2 ヤンキース (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".290",
+      "season_hr": 22,
+      "season_rbi": 60
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 3 - 0 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".231",
+      "season_hr": 20,
+      "season_rbi": 42
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ホワイトソックス 3 - 0 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".231",
+      "season_hr": 22,
+      "season_rbi": 62
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "ツインズ 1 - 10 カブス (試合終了)",
+    "pitching": {
+      "IP": "7.0",
+      "H": 6,
+      "ER": 0,
+      "BB": 1,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 6,
+      "season_losses": 8,
+      "season_era": "3.91",
+      "season_so": 109
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ツインズ 1 - 10 カブス (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".273",
+      "season_hr": 15,
+      "season_rbi": 48
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 8 - 2 ヤンキース (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 0,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".291",
+      "season_hr": 22,
+      "season_rbi": 60
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "player": "山本 由伸 (LAD)",
+    "team_vs": "ドジャース 8 - 2 ヤンキース (試合終了)",
+    "pitching": {
+      "IP": "9.0",
+      "H": 4,
+      "ER": 2,
+      "BB": 0,
+      "SO": 7,
+      "ERA": "-.--",
+      "season_wins": 10,
+      "season_losses": 6,
+      "season_era": "2.78",
+      "season_so": 113
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 19 - 2 ロイヤルズ (試合終了)",
+    "pitching": {
+      "IP": "2.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 0,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 1,
+      "season_era": "2.57",
+      "season_so": 38
+    }
+  }
+]
