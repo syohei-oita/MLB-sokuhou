@@ -1,0 +1,82 @@
+[
+  {
+    "date": "2026-07-21",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "オリオールズ 5 - 6 レッドソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".267",
+      "season_hr": 4,
+      "season_rbi": 18
+    }
+  },
+  {
+    "date": "2026-07-21",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "タイガース 8 - 6 カブス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".273",
+      "season_hr": 16,
+      "season_rbi": 50
+    }
+  },
+  {
+    "date": "2026-07-21",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 7 - 10 フィリーズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".287",
+      "season_hr": 22,
+      "season_rbi": 60
+    }
+  },
+  {
+    "date": "2026-07-21",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "レイズ 7 - 1 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".229",
+      "season_hr": 22,
+      "season_rbi": 62
+    }
+  },
+  {
+    "date": "2026-07-21",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 10 - 3 レンジャーズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 1,
+      "season_avg": ".232",
+      "season_hr": 20,
+      "season_rbi": 42
+    }
+  }
+]
