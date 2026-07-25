@@ -1,0 +1,116 @@
+[
+  {
+    "date": "2026-07-25",
+    "player": "菅野 智之 (COL)",
+    "team_vs": "ロッキーズ 5 - 2 ブルワーズ (試合終了)",
+    "pitching": {
+      "IP": "5.1",
+      "H": 6,
+      "ER": 2,
+      "BB": 1,
+      "SO": 5,
+      "ERA": "-.--",
+      "season_wins": 10,
+      "season_losses": 4,
+      "season_era": "4.69",
+      "season_so": 56
+    }
+  },
+  {
+    "date": "2026-07-25",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 3 - 2 パイレーツ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".267",
+      "season_hr": 17,
+      "season_rbi": 54
+    }
+  },
+  {
+    "date": "2026-07-25",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 4 - 6 レッドソックス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 1,
+      "RBI": 3,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".227",
+      "season_hr": 23,
+      "season_rbi": 65
+    }
+  },
+  {
+    "date": "2026-07-25",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "ブルージェイズ 4 - 6 レッドソックス (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".265",
+      "season_hr": 4,
+      "season_rbi": 19
+    }
+  },
+  {
+    "date": "2026-07-25",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 4 - 2 メッツ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".286",
+      "season_hr": 22,
+      "season_rbi": 61
+    }
+  },
+  {
+    "date": "2026-07-25",
+    "player": "佐々木 朗希 (LAD)",
+    "team_vs": "ドジャース 4 - 2 メッツ (試合終了)",
+    "pitching": {
+      "IP": "7.0",
+      "H": 3,
+      "ER": 1,
+      "BB": 2,
+      "SO": 9,
+      "ERA": "-.--",
+      "season_wins": 4,
+      "season_losses": 5,
+      "season_era": "4.71",
+      "season_so": 94
+    }
+  },
+  {
+    "date": "2026-07-25",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "アストロズ 9 - 5 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".231",
+      "season_hr": 20,
+      "season_rbi": 42
+    }
+  }
+]
