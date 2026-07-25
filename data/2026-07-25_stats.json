@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-07-25",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "アストロズ 9 - 5 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".231",
+      "season_hr": 20,
+      "season_rbi": 42
+    }
+  },
+  {
+    "date": "2026-07-25",
     "player": "菅野 智之 (COL)",
     "team_vs": "ロッキーズ 5 - 2 ブルワーズ (試合終了)",
     "pitching": {
@@ -14,22 +30,6 @@
       "season_losses": 4,
       "season_era": "4.69",
       "season_so": 56
-    }
-  },
-  {
-    "date": "2026-07-25",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 3 - 2 パイレーツ (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 0,
-      "HR": 0,
-      "RBI": 1,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".267",
-      "season_hr": 17,
-      "season_rbi": 54
     }
   },
   {
@@ -66,6 +66,22 @@
   },
   {
     "date": "2026-07-25",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 3 - 2 パイレーツ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".267",
+      "season_hr": 17,
+      "season_rbi": 54
+    }
+  },
+  {
+    "date": "2026-07-25",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "ドジャース 4 - 2 メッツ (試合終了)",
     "batting": {
@@ -95,22 +111,6 @@
       "season_losses": 5,
       "season_era": "4.71",
       "season_so": 94
-    }
-  },
-  {
-    "date": "2026-07-25",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "アストロズ 9 - 5 ホワイトソックス (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".231",
-      "season_hr": 20,
-      "season_rbi": 42
     }
   }
 ]
