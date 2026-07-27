@@ -17,6 +17,23 @@
   },
   {
     "date": "2026-07-27",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 5 - 3 マーリンズ (試合終了)",
+    "pitching": {
+      "IP": "0.2",
+      "H": 0,
+      "ER": 0,
+      "BB": 1,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 1,
+      "season_era": "2.56",
+      "season_so": 43
+    }
+  },
+  {
+    "date": "2026-07-27",
     "player": "大谷 翔平 (LAD)",
     "team_vs": "ドジャース 3 - 8 メッツ (試合終了)",
     "batting": {
@@ -77,23 +94,6 @@
       "season_avg": ".265",
       "season_hr": 18,
       "season_rbi": 58
-    }
-  },
-  {
-    "date": "2026-07-27",
-    "player": "松井 裕樹 (SD)",
-    "team_vs": "パドレス 5 - 3 マーリンズ (試合終了)",
-    "pitching": {
-      "IP": "0.2",
-      "H": 0,
-      "ER": 0,
-      "BB": 1,
-      "SO": 2,
-      "ERA": "-.--",
-      "season_wins": 1,
-      "season_losses": 1,
-      "season_era": "2.56",
-      "season_so": 43
     }
   }
 ]
