@@ -1,0 +1,83 @@
+[
+  {
+    "date": "2026-07-28",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "アストロズ 6 - 4 エンゼルス (試合終了)",
+    "pitching": {
+      "IP": "0.2",
+      "H": 1,
+      "ER": 2,
+      "BB": 4,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 6,
+      "season_losses": 4,
+      "season_era": "5.83",
+      "season_so": 72
+    }
+  },
+  {
+    "date": "2026-07-28",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 3 - 2 ナショナルズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".224",
+      "season_hr": 23,
+      "season_rbi": 65
+    }
+  },
+  {
+    "date": "2026-07-28",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 4 - 2 アスレチックス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".258",
+      "season_hr": 4,
+      "season_rbi": 19
+    }
+  },
+  {
+    "date": "2026-07-28",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 7 - 3 カージナルス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".264",
+      "season_hr": 18,
+      "season_rbi": 58
+    }
+  },
+  {
+    "date": "2026-07-28",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ヤンキース 9 - 5 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 1,
+      "season_avg": ".240",
+      "season_hr": 22,
+      "season_rbi": 48
+    }
+  }
+]
