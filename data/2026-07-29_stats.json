@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-07-29",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 6 - 8 ナショナルズ (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".226",
+      "season_hr": 24,
+      "season_rbi": 66
+    }
+  },
+  {
+    "date": "2026-07-29",
     "player": "村上 宗隆 (CWS)",
     "team_vs": "ヤンキース 3 - 2 ホワイトソックス (試合終了)",
     "batting": {
@@ -29,22 +45,6 @@
       "season_avg": ".286",
       "season_hr": 23,
       "season_rbi": 64
-    }
-  },
-  {
-    "date": "2026-07-29",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 6 - 8 ナショナルズ (試合終了)",
-    "batting": {
-      "AB": 2,
-      "H": 1,
-      "HR": 1,
-      "RBI": 1,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".226",
-      "season_hr": 24,
-      "season_rbi": 66
     }
   },
   {
