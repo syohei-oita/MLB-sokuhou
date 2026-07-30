@@ -17,22 +17,6 @@
   },
   {
     "date": "2026-07-30",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ヤンキース 5 - 6 ホワイトソックス (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 1,
-      "RBI": 1,
-      "BB": 1,
-      "SO": 2,
-      "season_avg": ".240",
-      "season_hr": 23,
-      "season_rbi": 49
-    }
-  },
-  {
-    "date": "2026-07-30",
     "player": "吉田 正尚 (BOS)",
     "team_vs": "レッドソックス 4 - 2 アスレチックス (試合終了)",
     "batting": {
@@ -45,6 +29,22 @@
       "season_avg": ".261",
       "season_hr": 4,
       "season_rbi": 19
+    }
+  },
+  {
+    "date": "2026-07-30",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ヤンキース 5 - 6 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".240",
+      "season_hr": 23,
+      "season_rbi": 49
     }
   },
   {
