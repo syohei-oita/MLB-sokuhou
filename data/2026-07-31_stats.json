@@ -17,22 +17,6 @@
   },
   {
     "date": "2026-07-31",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 4 - 2 カージナルス (試合終了)",
-    "batting": {
-      "AB": 3,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 2,
-      "SO": 1,
-      "season_avg": ".270",
-      "season_hr": 18,
-      "season_rbi": 60
-    }
-  },
-  {
-    "date": "2026-07-31",
     "player": "佐々木 朗希 (LAD)",
     "team_vs": "マリナーズ 2 - 6 ドジャース (試合終了)",
     "pitching": {
@@ -62,6 +46,22 @@
       "season_avg": ".260",
       "season_hr": 4,
       "season_rbi": 19
+    }
+  },
+  {
+    "date": "2026-07-31",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 4 - 2 カージナルス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 1,
+      "season_avg": ".270",
+      "season_hr": 18,
+      "season_rbi": 60
     }
   }
 ]
