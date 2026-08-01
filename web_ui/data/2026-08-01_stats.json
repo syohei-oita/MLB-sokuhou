@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2026-08-01",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "カージナルス 1 - 3 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".231",
+      "season_hr": 24,
+      "season_rbi": 69
+    }
+  },
+  {
+    "date": "2026-08-01",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "マーリンズ 5 - 2 メッツ (試合終了)",
+    "pitching": {
+      "IP": "4.0",
+      "H": 2,
+      "ER": 3,
+      "BB": 2,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 8,
+      "season_era": "8.66",
+      "season_so": 53
+    }
+  },
+  {
+    "date": "2026-08-01",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "ヤンキース 2 - 0 カブス (試合終了)",
+    "pitching": {
+      "IP": "6.2",
+      "H": 4,
+      "ER": 2,
+      "BB": 0,
+      "SO": 6,
+      "ERA": "-.--",
+      "season_wins": 7,
+      "season_losses": 9,
+      "season_era": "3.67",
+      "season_so": 119
+    }
+  },
+  {
+    "date": "2026-08-01",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "ジャイアンツ 0 - 7 パドレス (試合終了)",
+    "pitching": {
+      "IP": "3.0",
+      "H": 1,
+      "ER": 0,
+      "BB": 0,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 2,
+      "season_losses": 1,
+      "season_era": "2.38",
+      "season_so": 45
+    }
+  },
+  {
+    "date": "2026-08-01",
+    "player": "菅野 智之 (COL)",
+    "team_vs": "ロイヤルズ 1 - 3 ロッキーズ (試合終了)",
+    "pitching": {
+      "IP": "6.2",
+      "H": 5,
+      "ER": 1,
+      "BB": 0,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 11,
+      "season_losses": 4,
+      "season_era": "4.47",
+      "season_so": 58
+    }
+  },
+  {
+    "date": "2026-08-01",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 9 - 4 ドジャース (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".264",
+      "season_hr": 4,
+      "season_rbi": 20
+    }
+  },
+  {
+    "date": "2026-08-01",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "レッドソックス 9 - 4 ドジャース (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".291",
+      "season_hr": 24,
+      "season_rbi": 67
+    }
+  },
+  {
+    "date": "2026-08-01",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 6 - 1 レイズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".244",
+      "season_hr": 24,
+      "season_rbi": 51
+    }
+  }
+]
