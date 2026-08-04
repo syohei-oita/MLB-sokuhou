@@ -1,0 +1,84 @@
+[
+  {
+    "date": "2026-08-04",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 5 - 10 カブス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".294",
+      "season_hr": 24,
+      "season_rbi": 67
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ドジャース 5 - 10 カブス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".273",
+      "season_hr": 19,
+      "season_rbi": 63
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 1 - 5 ダイヤモンドバックス (試合終了)",
+    "pitching": {
+      "IP": "1.1",
+      "H": 1,
+      "ER": 0,
+      "BB": 1,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 2,
+      "season_losses": 1,
+      "season_era": "2.30",
+      "season_so": 47
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 3 - 1 アストロズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".231",
+      "season_hr": 24,
+      "season_rbi": 69
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "ブルージェイズ 3 - 1 アストロズ (試合終了)",
+    "pitching": {
+      "IP": "3.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 0,
+      "SO": 5,
+      "ERA": "-.--",
+      "season_wins": 6,
+      "season_losses": 4,
+      "season_era": "5.55",
+      "season_so": 77
+    }
+  }
+]
