@@ -1,23 +1,6 @@
 [
   {
     "date": "2026-08-07",
-    "player": "千賀 滉大 (NYM)",
-    "team_vs": "メッツ 13 - 6 ガーディアンズ (試合終了)",
-    "pitching": {
-      "IP": "1.0",
-      "H": 0,
-      "ER": 0,
-      "BB": 0,
-      "SO": 2,
-      "ERA": "-.--",
-      "season_wins": 0,
-      "season_losses": 8,
-      "season_era": "8.29",
-      "season_so": 55
-    }
-  },
-  {
-    "date": "2026-08-07",
     "player": "岡本 和真 (TOR)",
     "team_vs": "ブルージェイズ 2 - 3 カブス (試合終了)",
     "batting": {
@@ -46,6 +29,23 @@
       "season_avg": ".270",
       "season_hr": 19,
       "season_rbi": 64
+    }
+  },
+  {
+    "date": "2026-08-07",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "メッツ 13 - 6 ガーディアンズ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 0,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 8,
+      "season_era": "8.29",
+      "season_so": 55
     }
   },
   {
