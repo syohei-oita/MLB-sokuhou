@@ -1,55 +1,6 @@
 [
   {
     "date": "2026-08-08",
-    "player": "岡本 和真 (TOR)",
-    "team_vs": "ブルージェイズ 5 - 4 フィリーズ (試合終了)",
-    "batting": {
-      "AB": 5,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 0,
-      "SO": 2,
-      "season_avg": ".226",
-      "season_hr": 24,
-      "season_rbi": 70
-    }
-  },
-  {
-    "date": "2026-08-08",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ガーディアンズ 8 - 2 ホワイトソックス (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 1,
-      "RBI": 1,
-      "BB": 0,
-      "SO": 2,
-      "season_avg": ".236",
-      "season_hr": 25,
-      "season_rbi": 52
-    }
-  },
-  {
-    "date": "2026-08-08",
-    "player": "松井 裕樹 (SD)",
-    "team_vs": "アストロズ 6 - 3 パドレス (試合終了)",
-    "pitching": {
-      "IP": "2.0",
-      "H": 1,
-      "ER": 1,
-      "BB": 1,
-      "SO": 0,
-      "ERA": "-.--",
-      "season_wins": 2,
-      "season_losses": 1,
-      "season_era": "2.40",
-      "season_so": 47
-    }
-  },
-  {
-    "date": "2026-08-08",
     "player": "鈴木 誠也 (CHC)",
     "team_vs": "カブス 6 - 4 ロイヤルズ (試合終了)",
     "batting": {
@@ -62,22 +13,6 @@
       "season_avg": ".272",
       "season_hr": 19,
       "season_rbi": 66
-    }
-  },
-  {
-    "date": "2026-08-08",
-    "player": "吉田 正尚 (BOS)",
-    "team_vs": "アスレチックス 1 - 13 レッドソックス (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 2,
-      "HR": 0,
-      "RBI": 2,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".273",
-      "season_hr": 5,
-      "season_rbi": 26
     }
   },
   {
@@ -111,6 +46,71 @@
       "season_losses": 5,
       "season_era": "4.54",
       "season_so": 106
+    }
+  },
+  {
+    "date": "2026-08-08",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "アストロズ 6 - 3 パドレス (試合終了)",
+    "pitching": {
+      "IP": "2.0",
+      "H": 1,
+      "ER": 1,
+      "BB": 1,
+      "SO": 0,
+      "ERA": "-.--",
+      "season_wins": 2,
+      "season_losses": 1,
+      "season_era": "2.40",
+      "season_so": 47
+    }
+  },
+  {
+    "date": "2026-08-08",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "アスレチックス 1 - 13 レッドソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".273",
+      "season_hr": 5,
+      "season_rbi": 26
+    }
+  },
+  {
+    "date": "2026-08-08",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ガーディアンズ 8 - 2 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".236",
+      "season_hr": 25,
+      "season_rbi": 52
+    }
+  },
+  {
+    "date": "2026-08-08",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 5 - 4 フィリーズ (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".226",
+      "season_hr": 24,
+      "season_rbi": 70
     }
   }
 ]
