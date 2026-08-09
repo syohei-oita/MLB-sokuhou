@@ -1,6 +1,39 @@
 [
   {
     "date": "2026-08-09",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 2 - 1 ダイヤモンドバックス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".294",
+      "season_hr": 26,
+      "season_rbi": 71
+    }
+  },
+  {
+    "date": "2026-08-09",
+    "player": "山本 由伸 (LAD)",
+    "team_vs": "ドジャース 2 - 1 ダイヤモンドバックス (試合終了)",
+    "pitching": {
+      "IP": "5.2",
+      "H": 3,
+      "ER": 0,
+      "BB": 3,
+      "SO": 6,
+      "ERA": "-.--",
+      "season_wins": 11,
+      "season_losses": 7,
+      "season_era": "2.65",
+      "season_so": 127
+    }
+  },
+  {
+    "date": "2026-08-09",
     "player": "岡本 和真 (TOR)",
     "team_vs": "ブルージェイズ 7 - 5 フィリーズ (試合終了)",
     "batting": {
@@ -45,39 +78,6 @@
       "season_avg": ".237",
       "season_hr": 26,
       "season_rbi": 53
-    }
-  },
-  {
-    "date": "2026-08-09",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "ドジャース 2 - 1 ダイヤモンドバックス (試合中)",
-    "batting": {
-      "AB": 5,
-      "H": 1,
-      "HR": 0,
-      "RBI": 1,
-      "BB": 0,
-      "SO": 2,
-      "season_avg": ".294",
-      "season_hr": 26,
-      "season_rbi": 71
-    }
-  },
-  {
-    "date": "2026-08-09",
-    "player": "山本 由伸 (LAD)",
-    "team_vs": "ドジャース 2 - 1 ダイヤモンドバックス (試合中)",
-    "pitching": {
-      "IP": "5.2",
-      "H": 3,
-      "ER": 0,
-      "BB": 3,
-      "SO": 6,
-      "ERA": "-.--",
-      "season_wins": 11,
-      "season_losses": 7,
-      "season_era": "2.65",
-      "season_so": 127
     }
   }
 ]
