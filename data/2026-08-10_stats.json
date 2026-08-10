@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-08-10",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 6 - 7 フィリーズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".225",
+      "season_hr": 24,
+      "season_rbi": 70
+    }
+  },
+  {
+    "date": "2026-08-10",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ガーディアンズ 3 - 5 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".237",
+      "season_hr": 26,
+      "season_rbi": 54
+    }
+  },
+  {
+    "date": "2026-08-10",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 2 - 4 ダイヤモンドバックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".292",
+      "season_hr": 26,
+      "season_rbi": 71
+    }
+  }
+]
