@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-08-11",
+    "player": "吉田 正尚 (BOS)",
+    "team_vs": "レッドソックス 1 - 2 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".270",
+      "season_hr": 5,
+      "season_rbi": 26
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "ブルワーズ 2 - 3 パドレス (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 0,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 1,
+      "season_era": "2.35",
+      "season_so": 48
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ロイヤルズ 5 - 6 ドジャース (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".294",
+      "season_hr": 26,
+      "season_rbi": 72
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "メッツ 8 - 5 ブレーブス (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 1,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 8,
+      "season_era": "8.12",
+      "season_so": 57
+    }
+  }
+]
