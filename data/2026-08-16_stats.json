@@ -1,22 +1,6 @@
 [
   {
     "date": "2026-08-16",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "ホワイトソックス 4 - 3 タイガース (試合終了)",
-    "batting": {
-      "AB": 4,
-      "H": 1,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 2,
-      "season_avg": ".235",
-      "season_hr": 27,
-      "season_rbi": 55
-    }
-  },
-  {
-    "date": "2026-08-16",
     "player": "岡本 和真 (TOR)",
     "team_vs": "ヤンキース 1 - 4 ブルージェイズ (試合終了)",
     "batting": {
@@ -33,18 +17,18 @@
   },
   {
     "date": "2026-08-16",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カージナルス 8 - 4 カブス (試合終了)",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ブルワーズ 4 - 1 ドジャース (試合終了)",
     "batting": {
-      "AB": 3,
+      "AB": 4,
       "H": 1,
       "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 0,
-      "season_avg": ".274",
-      "season_hr": 21,
-      "season_rbi": 73
+      "RBI": 1,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".289",
+      "season_hr": 27,
+      "season_rbi": 75
     }
   },
   {
@@ -65,18 +49,34 @@
   },
   {
     "date": "2026-08-16",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "ブルワーズ 4 - 1 ドジャース (試合終了)",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カージナルス 8 - 4 カブス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".274",
+      "season_hr": 21,
+      "season_rbi": 73
+    }
+  },
+  {
+    "date": "2026-08-16",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 4 - 3 タイガース (試合終了)",
     "batting": {
       "AB": 4,
       "H": 1,
       "HR": 0,
-      "RBI": 1,
-      "BB": 0,
+      "RBI": 0,
+      "BB": 1,
       "SO": 2,
-      "season_avg": ".289",
+      "season_avg": ".235",
       "season_hr": 27,
-      "season_rbi": 75
+      "season_rbi": 55
     }
   }
 ]
