@@ -1,0 +1,84 @@
+[
+  {
+    "date": "2026-08-18",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 11 - 5 ロッキーズ (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 4,
+      "HR": 2,
+      "RBI": 3,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".295",
+      "season_hr": 29,
+      "season_rbi": 78
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "player": "菅野 智之 (COL)",
+    "team_vs": "ドジャース 11 - 5 ロッキーズ (試合終了)",
+    "pitching": {
+      "IP": "5.0",
+      "H": 7,
+      "ER": 6,
+      "BB": 1,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 12,
+      "season_losses": 6,
+      "season_era": "4.70",
+      "season_so": 69
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 5 - 7 カブス (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 3,
+      "SO": 1,
+      "season_avg": ".233",
+      "season_hr": 28,
+      "season_rbi": 57
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "ホワイトソックス 5 - 7 カブス (試合終了)",
+    "pitching": {
+      "IP": "6.0",
+      "H": 2,
+      "ER": 3,
+      "BB": 3,
+      "SO": 10,
+      "ERA": "-.--",
+      "season_wins": 8,
+      "season_losses": 9,
+      "season_era": "3.77",
+      "season_so": 140
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ホワイトソックス 5 - 7 カブス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".273",
+      "season_hr": 22,
+      "season_rbi": 74
+    }
+  }
+]
