@@ -1,0 +1,117 @@
+[
+  {
+    "date": "2026-08-20",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 2 - 4 メッツ (試合終了)",
+    "pitching": {
+      "IP": "0.2",
+      "H": 1,
+      "ER": 0,
+      "BB": 0,
+      "SO": 0,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 1,
+      "season_era": "2.22",
+      "season_so": 50
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "パドレス 2 - 4 メッツ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 2,
+      "ER": 1,
+      "BB": 1,
+      "SO": 0,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 8,
+      "season_era": "7.82",
+      "season_so": 60
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 3 - 0 カブス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".230",
+      "season_hr": 29,
+      "season_rbi": 58
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ホワイトソックス 3 - 0 カブス (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 1,
+      "season_avg": ".268",
+      "season_hr": 22,
+      "season_rbi": 74
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 6 - 4 ロッキーズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".291",
+      "season_hr": 30,
+      "season_rbi": 80
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "player": "佐々木 朗希 (LAD)",
+    "team_vs": "ドジャース 6 - 4 ロッキーズ (試合終了)",
+    "pitching": {
+      "IP": "5.0",
+      "H": 7,
+      "ER": 2,
+      "BB": 1,
+      "SO": 6,
+      "ERA": "-.--",
+      "season_wins": 5,
+      "season_losses": 5,
+      "season_era": "4.42",
+      "season_so": 114
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 6 - 7 レイズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".228",
+      "season_hr": 25,
+      "season_rbi": 73
+    }
+  }
+]
