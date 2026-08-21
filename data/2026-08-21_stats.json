@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-08-21",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "エンゼルス 18 - 3 アストロズ (試合終了)",
+    "pitching": {
+      "IP": "3.0",
+      "H": 2,
+      "ER": 2,
+      "BB": 2,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 6,
+      "season_losses": 4,
+      "season_era": "5.32",
+      "season_so": 83
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 5 - 1 レイズ (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 2,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".230",
+      "season_hr": 26,
+      "season_rbi": 74
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ブレーブス 2 - 0 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".227",
+      "season_hr": 29,
+      "season_rbi": 58
+    }
+  }
+]
