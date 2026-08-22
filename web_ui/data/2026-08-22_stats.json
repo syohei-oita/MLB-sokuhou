@@ -17,32 +17,32 @@
   },
   {
     "date": "2026-08-22",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 4 - 5 マリナーズ (試合中)",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "メッツ 4 - 6 ホワイトソックス (試合終了)",
     "batting": {
-      "AB": 5,
-      "H": 1,
+      "AB": 3,
+      "H": 0,
       "HR": 0,
       "RBI": 0,
-      "BB": 0,
-      "SO": 3,
-      "season_avg": ".267",
-      "season_hr": 22,
-      "season_rbi": 74
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".225",
+      "season_hr": 29,
+      "season_rbi": 58
     }
   },
   {
     "date": "2026-08-22",
     "player": "大谷 翔平 (LAD)",
-    "team_vs": "パイレーツ 2 - 4 ドジャース (試合中)",
+    "team_vs": "パイレーツ 4 - 5 ドジャース (試合終了)",
     "batting": {
-      "AB": 2,
+      "AB": 3,
       "H": 1,
       "HR": 0,
       "RBI": 0,
       "BB": 2,
-      "SO": 0,
-      "season_avg": ".292",
+      "SO": 1,
+      "season_avg": ".291",
       "season_hr": 30,
       "season_rbi": 80
     }
@@ -50,7 +50,7 @@
   {
     "date": "2026-08-22",
     "player": "山本 由伸 (LAD)",
-    "team_vs": "パイレーツ 2 - 4 ドジャース (試合中)",
+    "team_vs": "パイレーツ 4 - 5 ドジャース (試合終了)",
     "pitching": {
       "IP": "6.1",
       "H": 5,
@@ -66,18 +66,18 @@
   },
   {
     "date": "2026-08-22",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "メッツ 4 - 6 ホワイトソックス (試合終了)",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 5 - 6 マリナーズ (試合終了)",
     "batting": {
-      "AB": 3,
-      "H": 0,
+      "AB": 5,
+      "H": 1,
       "HR": 0,
       "RBI": 0,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".225",
-      "season_hr": 29,
-      "season_rbi": 58
+      "BB": 0,
+      "SO": 3,
+      "season_avg": ".267",
+      "season_hr": 22,
+      "season_rbi": 74
     }
   }
 ]
