@@ -33,22 +33,6 @@
   },
   {
     "date": "2026-08-23",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "パイレーツ 3 - 4 ドジャース (試合終了)",
-    "batting": {
-      "AB": 3,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 2,
-      "SO": 2,
-      "season_avg": ".289",
-      "season_hr": 30,
-      "season_rbi": 80
-    }
-  },
-  {
-    "date": "2026-08-23",
     "player": "千賀 滉大 (NYM)",
     "team_vs": "メッツ 10 - 5 ホワイトソックス (試合終了)",
     "pitching": {
@@ -78,6 +62,22 @@
       "season_avg": ".225",
       "season_hr": 29,
       "season_rbi": 58
+    }
+  },
+  {
+    "date": "2026-08-23",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "パイレーツ 3 - 4 ドジャース (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 2,
+      "season_avg": ".289",
+      "season_hr": 30,
+      "season_rbi": 80
     }
   }
 ]
