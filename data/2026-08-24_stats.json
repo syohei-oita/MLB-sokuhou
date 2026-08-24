@@ -1,39 +1,6 @@
 [
   {
     "date": "2026-08-24",
-    "player": "大谷 翔平 (LAD)",
-    "team_vs": "パイレーツ 0 - 4 ドジャース (試合終了)",
-    "batting": {
-      "AB": 3,
-      "H": 0,
-      "HR": 0,
-      "RBI": 0,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".288",
-      "season_hr": 30,
-      "season_rbi": 80
-    }
-  },
-  {
-    "date": "2026-08-24",
-    "player": "松井 裕樹 (SD)",
-    "team_vs": "ツインズ 1 - 8 パドレス (試合終了)",
-    "pitching": {
-      "IP": "1.0",
-      "H": 1,
-      "ER": 0,
-      "BB": 0,
-      "SO": 1,
-      "ERA": "-.--",
-      "season_wins": 3,
-      "season_losses": 1,
-      "season_era": "2.17",
-      "season_so": 51
-    }
-  },
-  {
-    "date": "2026-08-24",
     "player": "岡本 和真 (TOR)",
     "team_vs": "ブルージェイズ 3 - 8 ヤンキース (試合終了)",
     "batting": {
@@ -50,19 +17,35 @@
   },
   {
     "date": "2026-08-24",
-    "player": "菅野 智之 (COL)",
-    "team_vs": "ガーディアンズ 7 - 2 ロッキーズ (試合終了)",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "メッツ 1 - 2 ホワイトソックス (試合終了)",
     "pitching": {
-      "IP": "3.0",
-      "H": 9,
-      "ER": 5,
+      "IP": "0.1",
+      "H": 1,
+      "ER": 1,
+      "BB": 0,
+      "SO": 0,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 9,
+      "season_era": "7.79",
+      "season_so": 62
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "メッツ 1 - 2 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
       "BB": 1,
       "SO": 2,
-      "ERA": "-.--",
-      "season_wins": 12,
-      "season_losses": 7,
-      "season_era": "4.96",
-      "season_so": 71
+      "season_avg": ".223",
+      "season_hr": 29,
+      "season_rbi": 58
     }
   },
   {
@@ -117,35 +100,52 @@
   },
   {
     "date": "2026-08-24",
-    "player": "千賀 滉大 (NYM)",
-    "team_vs": "メッツ 1 - 2 ホワイトソックス (試合終了)",
+    "player": "菅野 智之 (COL)",
+    "team_vs": "ガーディアンズ 7 - 2 ロッキーズ (試合終了)",
     "pitching": {
-      "IP": "0.1",
-      "H": 1,
-      "ER": 1,
-      "BB": 0,
-      "SO": 0,
+      "IP": "3.0",
+      "H": 9,
+      "ER": 5,
+      "BB": 1,
+      "SO": 2,
       "ERA": "-.--",
-      "season_wins": 0,
-      "season_losses": 9,
-      "season_era": "7.79",
-      "season_so": 62
+      "season_wins": 12,
+      "season_losses": 7,
+      "season_era": "4.96",
+      "season_so": 71
     }
   },
   {
     "date": "2026-08-24",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "メッツ 1 - 2 ホワイトソックス (試合終了)",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "パイレーツ 0 - 4 ドジャース (試合終了)",
     "batting": {
       "AB": 3,
       "H": 0,
       "HR": 0,
       "RBI": 0,
       "BB": 1,
-      "SO": 2,
-      "season_avg": ".223",
-      "season_hr": 29,
-      "season_rbi": 58
+      "SO": 1,
+      "season_avg": ".288",
+      "season_hr": 30,
+      "season_rbi": 80
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "ツインズ 1 - 8 パドレス (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 1,
+      "ER": 0,
+      "BB": 0,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 1,
+      "season_era": "2.17",
+      "season_so": 51
     }
   }
 ]
