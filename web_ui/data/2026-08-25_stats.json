@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-08-25",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 7 - 0 ダイヤモンドバックス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".269",
+      "season_hr": 22,
+      "season_rbi": 75
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "レンジャーズ 11 - 2 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 3,
+      "season_avg": ".223",
+      "season_hr": 29,
+      "season_rbi": 58
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パイレーツ 2 - 2 パドレス (試合中)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 1,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 1,
+      "season_era": "2.13",
+      "season_so": 53
+    }
+  }
+]
