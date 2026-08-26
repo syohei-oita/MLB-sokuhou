@@ -1,18 +1,18 @@
 [
   {
     "date": "2026-08-26",
-    "player": "村上 宗隆 (CWS)",
-    "team_vs": "レンジャーズ 7 - 11 ホワイトソックス (試合終了)",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 4 - 5 ダイヤモンドバックス (試合終了)",
     "batting": {
       "AB": 4,
-      "H": 0,
+      "H": 2,
       "HR": 0,
       "RBI": 0,
-      "BB": 1,
-      "SO": 1,
-      "season_avg": ".221",
-      "season_hr": 29,
-      "season_rbi": 58
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".271",
+      "season_hr": 22,
+      "season_rbi": 75
     }
   },
   {
@@ -49,18 +49,18 @@
   },
   {
     "date": "2026-08-26",
-    "player": "鈴木 誠也 (CHC)",
-    "team_vs": "カブス 4 - 5 ダイヤモンドバックス (試合終了)",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "レンジャーズ 7 - 11 ホワイトソックス (試合終了)",
     "batting": {
       "AB": 4,
-      "H": 2,
+      "H": 0,
       "HR": 0,
       "RBI": 0,
-      "BB": 0,
-      "SO": 0,
-      "season_avg": ".271",
-      "season_hr": 22,
-      "season_rbi": 75
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".221",
+      "season_hr": 29,
+      "season_rbi": 58
     }
   }
 ]
