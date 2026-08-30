@@ -1,0 +1,100 @@
+[
+  {
+    "date": "2026-08-30",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "マリナーズ 3 - 4 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 1,
+      "season_avg": ".230",
+      "season_hr": 27,
+      "season_rbi": 77
+    }
+  },
+  {
+    "date": "2026-08-30",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 6 - 7 レイズ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 1,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 1,
+      "season_era": "2.06",
+      "season_so": 56
+    }
+  },
+  {
+    "date": "2026-08-30",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 1 - 2 タイガース (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".283",
+      "season_hr": 30,
+      "season_rbi": 80
+    }
+  },
+  {
+    "date": "2026-08-30",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 3 - 2 ツインズ (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 1,
+      "season_avg": ".221",
+      "season_hr": 29,
+      "season_rbi": 58
+    }
+  },
+  {
+    "date": "2026-08-30",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "レッズ 5 - 17 カブス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 3,
+      "HR": 1,
+      "RBI": 2,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".277",
+      "season_hr": 23,
+      "season_rbi": 79
+    }
+  },
+  {
+    "date": "2026-08-30",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "アストロズ 2 - 6 メッツ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 1,
+      "ER": 0,
+      "BB": 0,
+      "SO": 0,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 9,
+      "season_era": "7.50",
+      "season_so": 64
+    }
+  }
+]
