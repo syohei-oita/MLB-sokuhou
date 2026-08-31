@@ -1,0 +1,117 @@
+[
+  {
+    "date": "2026-08-31",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "マリナーズ 0 - 7 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".230",
+      "season_hr": 28,
+      "season_rbi": 78
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "player": "菊池 雄星 (LAA)",
+    "team_vs": "フィリーズ 5 - 2 エンゼルス (試合終了)",
+    "pitching": {
+      "IP": "7.0",
+      "H": 6,
+      "ER": 2,
+      "BB": 1,
+      "SO": 6,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 5,
+      "season_era": "5.65",
+      "season_so": 43
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 4 - 5 レイズ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 1,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 1,
+      "season_era": "2.03",
+      "season_so": 58
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 1 - 5 ツインズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".218",
+      "season_hr": 29,
+      "season_rbi": 58
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "レッズ 7 - 5 カブス (試合終了)",
+    "pitching": {
+      "IP": "5.0",
+      "H": 8,
+      "ER": 6,
+      "BB": 1,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 8,
+      "season_losses": 10,
+      "season_era": "4.01",
+      "season_so": 148
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "レッズ 7 - 5 カブス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".274",
+      "season_hr": 23,
+      "season_rbi": 79
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 6 - 1 タイガース (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".280",
+      "season_hr": 30,
+      "season_rbi": 80
+    }
+  }
+]
