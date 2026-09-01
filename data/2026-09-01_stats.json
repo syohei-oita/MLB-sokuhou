@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-09-01",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "メッツ 3 - 2 レイズ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 1,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 9,
+      "season_era": "7.36",
+      "season_so": 65
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 3 - 6 アストロズ (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 3,
+      "SO": 1,
+      "season_avg": ".217",
+      "season_hr": 29,
+      "season_rbi": 59
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ブルワーズ 3 - 17 カブス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 3,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".278",
+      "season_hr": 24,
+      "season_rbi": 80
+    }
+  }
+]
