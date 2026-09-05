@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-09-05",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "カブス 6 - 1 マーリンズ (試合終了)",
+    "pitching": {
+      "IP": "6.0",
+      "H": 3,
+      "ER": 1,
+      "BB": 0,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 9,
+      "season_losses": 10,
+      "season_era": "3.91",
+      "season_so": 152
+    }
+  },
+  {
+    "date": "2026-09-05",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 6 - 1 マーリンズ (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".270",
+      "season_hr": 24,
+      "season_rbi": 80
+    }
+  },
+  {
+    "date": "2026-09-05",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ツインズ 1 - 4 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".211",
+      "season_hr": 29,
+      "season_rbi": 59
+    }
+  },
+  {
+    "date": "2026-09-05",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "ヤンキース 2 - 3 パドレス (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 1,
+      "ER": 0,
+      "BB": 0,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 1,
+      "season_era": "1.95",
+      "season_so": 61
+    }
+  },
+  {
+    "date": "2026-09-05",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "ジャイアンツ 6 - 10 メッツ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 1,
+      "SO": 0,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 9,
+      "season_era": "7.23",
+      "season_so": 65
+    }
+  },
+  {
+    "date": "2026-09-05",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 9 - 2 ロイヤルズ (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".227",
+      "season_hr": 28,
+      "season_rbi": 79
+    }
+  }
+]
