@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2026-09-07",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 3 - 10 マーリンズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".271",
+      "season_hr": 24,
+      "season_rbi": 80
+    }
+  },
+  {
+    "date": "2026-09-07",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 1 - 6 ロイヤルズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".231",
+      "season_hr": 28,
+      "season_rbi": 81
+    }
+  },
+  {
+    "date": "2026-09-07",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ツインズ 1 - 10 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".211",
+      "season_hr": 30,
+      "season_rbi": 62
+    }
+  },
+  {
+    "date": "2026-09-07",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "ジャイアンツ 2 - 4 メッツ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 0,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 9,
+      "season_era": "7.11",
+      "season_so": 66
+    }
+  }
+]
