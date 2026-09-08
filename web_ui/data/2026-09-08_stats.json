@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-09-08",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 5 - 6 アスレチックス (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 1,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 2,
+      "SO": 0,
+      "season_avg": ".232",
+      "season_hr": 29,
+      "season_rbi": 82
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "レッズ 3 - 6 ドジャース (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".277",
+      "season_hr": 30,
+      "season_rbi": 80
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 3 - 4 ブルワーズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 1,
+      "season_avg": ".269",
+      "season_hr": 24,
+      "season_rbi": 80
+    }
+  }
+]
