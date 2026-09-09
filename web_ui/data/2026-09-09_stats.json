@@ -1,0 +1,84 @@
+[
+  {
+    "date": "2026-09-09",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "ナショナルズ 4 - 5 パドレス (試合終了)",
+    "pitching": {
+      "IP": "0.2",
+      "H": 2,
+      "ER": 1,
+      "BB": 0,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 1,
+      "season_era": "2.09",
+      "season_so": 62
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "ブルージェイズ 4 - 2 アスレチックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".234",
+      "season_hr": 30,
+      "season_rbi": 83
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "メッツ 7 - 5 マーリンズ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 2,
+      "ER": 1,
+      "BB": 0,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 9,
+      "season_era": "7.14",
+      "season_so": 68
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 3 - 4 ブルワーズ (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".268",
+      "season_hr": 24,
+      "season_rbi": 80
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "パイレーツ 9 - 3 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 4,
+      "season_avg": ".209",
+      "season_hr": 30,
+      "season_rbi": 62
+    }
+  }
+]
