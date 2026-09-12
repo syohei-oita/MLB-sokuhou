@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-09-12",
+    "player": "菊池 雄星 (LAA)",
+    "team_vs": "エンゼルス 3 - 4 ナショナルズ (試合終了)",
+    "pitching": {
+      "IP": "4.0",
+      "H": 3,
+      "ER": 1,
+      "BB": 4,
+      "SO": 5,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 5,
+      "season_era": "4.75",
+      "season_so": 54
+    }
+  },
+  {
+    "date": "2026-09-12",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "オリオールズ 7 - 4 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".234",
+      "season_hr": 31,
+      "season_rbi": 84
+    }
+  },
+  {
+    "date": "2026-09-12",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "パイレーツ 2 - 12 カブス (試合終了)",
+    "pitching": {
+      "IP": "6.0",
+      "H": 5,
+      "ER": 2,
+      "BB": 2,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 10,
+      "season_losses": 10,
+      "season_era": "3.88",
+      "season_so": 156
+    }
+  },
+  {
+    "date": "2026-09-12",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "パイレーツ 2 - 12 カブス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 3,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".270",
+      "season_hr": 24,
+      "season_rbi": 81
+    }
+  },
+  {
+    "date": "2026-09-12",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 7 - 5 ジャイアンツ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 0,
+      "SO": 0,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 1,
+      "season_era": "2.02",
+      "season_so": 62
+    }
+  },
+  {
+    "date": "2026-09-12",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 3 - 7 カージナルス (試合終了)",
+    "batting": {
+      "AB": 1,
+      "H": 0,
+      "HR": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".207",
+      "season_hr": 31,
+      "season_rbi": 64
+    }
+  }
+]
