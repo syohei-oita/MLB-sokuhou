@@ -1,0 +1,84 @@
+[
+  {
+    "date": "2026-09-15",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 7 - 3 ガーディアンズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 3,
+      "season_avg": ".204",
+      "season_hr": 31,
+      "season_rbi": 65
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "player": "千賀 滉大 (NYM)",
+    "team_vs": "オリオールズ 2 - 1 メッツ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 2,
+      "ER": 0,
+      "BB": 0,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 9,
+      "season_era": "7.02",
+      "season_so": 71
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "タイガース 6 - 5 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "RBI": 3,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".236",
+      "season_hr": 33,
+      "season_rbi": 88
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "player": "菅野 智之 (COL)",
+    "team_vs": "パドレス 8 - 7 ロッキーズ (試合終了)",
+    "pitching": {
+      "IP": "5.0",
+      "H": 8,
+      "ER": 6,
+      "BB": 1,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 12,
+      "season_losses": 10,
+      "season_era": "5.49",
+      "season_so": 86
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ブレーブス 3 - 7 カブス (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".268",
+      "season_hr": 24,
+      "season_rbi": 81
+    }
+  }
+]
