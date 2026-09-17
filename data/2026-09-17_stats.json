@@ -1,0 +1,118 @@
+[
+  {
+    "date": "2026-09-17",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 9 - 3 ロッキーズ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 2,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 3,
+      "season_losses": 1,
+      "season_era": "1.95",
+      "season_so": 64
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 3 - 6 ガーディアンズ (試合終了)",
+    "batting": {
+      "AB": 1,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 0,
+      "season_avg": ".202",
+      "season_hr": 31,
+      "season_rbi": 65
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "タイガース 1 - 5 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "season_avg": ".235",
+      "season_hr": 33,
+      "season_rbi": 88
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "ブレーブス 4 - 8 カブス (試合終了)",
+    "pitching": {
+      "IP": "6.0",
+      "H": 4,
+      "ER": 1,
+      "BB": 0,
+      "SO": 8,
+      "ERA": "-.--",
+      "season_wins": 11,
+      "season_losses": 10,
+      "season_era": "3.80",
+      "season_so": 164
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "ブレーブス 4 - 8 カブス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".266",
+      "season_hr": 24,
+      "season_rbi": 81
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "ロイヤルズ 5 - 2 アストロズ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 1,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 6,
+      "season_losses": 4,
+      "season_era": "5.13",
+      "season_so": 92
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "player": "菊池 雄星 (LAA)",
+    "team_vs": "マリナーズ 7 - 2 エンゼルス (試合終了)",
+    "pitching": {
+      "IP": "4.1",
+      "H": 5,
+      "ER": 4,
+      "BB": 5,
+      "SO": 4,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 6,
+      "season_era": "5.02",
+      "season_so": 58
+    }
+  }
+]
