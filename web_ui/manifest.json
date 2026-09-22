@@ -1,0 +1,24 @@
+{
+  "id": "/mlb-sokuhou",
+  "name": "MLB 日本人選手成績速報",
+  "short_name": "MLB侍速報",
+  "description": "本日のMLBで活躍した日本人選手の成績をリアルタイムで確認できるツールです。",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#e0f2fe",
+  "theme_color": "#0284c7",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
