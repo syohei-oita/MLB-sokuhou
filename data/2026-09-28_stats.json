@@ -1,0 +1,118 @@
+[
+  {
+    "date": "2026-09-28",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ドジャース 5 - 1 ジャイアンツ (試合終了)",
+    "batting": {
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "season_avg": ".275",
+      "season_hr": 30,
+      "season_rbi": 81
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "player": "佐々木 朗希 (LAD)",
+    "team_vs": "ドジャース 5 - 1 ジャイアンツ (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 0,
+      "SO": 2,
+      "ERA": "-.--",
+      "season_wins": 5,
+      "season_losses": 5,
+      "season_era": "4.49",
+      "season_so": 123
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "player": "岡本 和真 (TOR)",
+    "team_vs": "レッズ 1 - 5 ブルージェイズ (試合終了)",
+    "batting": {
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 2,
+      "season_avg": ".232",
+      "season_hr": 33,
+      "season_rbi": 92
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "player": "今井 達也 (HOU)",
+    "team_vs": "アストロズ 9 - 0 アスレチックス (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 0,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 6,
+      "season_losses": 4,
+      "season_era": "4.93",
+      "season_so": 97
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "player": "今永 昇太 (CHC)",
+    "team_vs": "カブス 6 - 2 レッドソックス (試合終了)",
+    "pitching": {
+      "IP": "1.0",
+      "H": 1,
+      "ER": 1,
+      "BB": 0,
+      "SO": 3,
+      "ERA": "-.--",
+      "season_wins": 11,
+      "season_losses": 10,
+      "season_era": "3.77",
+      "season_so": 174
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "player": "菊池 雄星 (LAA)",
+    "team_vs": "エンゼルス 3 - 7 マリナーズ (試合終了)",
+    "pitching": {
+      "IP": "5.0",
+      "H": 6,
+      "ER": 3,
+      "BB": 1,
+      "SO": 7,
+      "ERA": "-.--",
+      "season_wins": 1,
+      "season_losses": 7,
+      "season_era": "4.92",
+      "season_so": 67
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ロッキーズ 2 - 4 ホワイトソックス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "season_avg": ".207",
+      "season_hr": 35,
+      "season_rbi": 77
+    }
+  }
+]
