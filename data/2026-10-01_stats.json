@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2026-10-01",
+    "player": "鈴木 誠也 (CHC)",
+    "team_vs": "カブス 1 - 4 パドレス (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".286",
+      "season_hr": 0,
+      "season_rbi": 0
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "player": "村上 宗隆 (CWS)",
+    "team_vs": "ホワイトソックス 7 - 3 アストロズ (試合終了)",
+    "batting": {
+      "AB": 5,
+      "H": 0,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 3,
+      "season_avg": ".125",
+      "season_hr": 0,
+      "season_rbi": 1
+    }
+  }
+]
