@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2026-10-05",
+    "player": "大谷 翔平 (LAD)",
+    "team_vs": "ブレーブス 3 - 2 ドジャース (試合終了)",
+    "batting": {
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 2,
+      "season_avg": ".250",
+      "season_hr": 0,
+      "season_rbi": 0
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "player": "佐々木 朗希 (LAD)",
+    "team_vs": "ブレーブス 3 - 2 ドジャース (試合終了)",
+    "pitching": {
+      "IP": "2.0",
+      "H": 0,
+      "ER": 0,
+      "BB": 2,
+      "SO": 1,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "0.00",
+      "season_so": 1
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "player": "松井 裕樹 (SD)",
+    "team_vs": "パドレス 3 - 4 ブルワーズ (試合終了)",
+    "pitching": {
+      "IP": "1.1",
+      "H": 1,
+      "ER": 0,
+      "BB": 1,
+      "SO": 0,
+      "ERA": "-.--",
+      "season_wins": 0,
+      "season_losses": 0,
+      "season_era": "0.00",
+      "season_so": 2
+    }
+  }
+]
