@@ -66,7 +66,7 @@ async function loadStats() {
     selectedDate = todayStr;
   }
   
-  // Netlify上の静的データファイル（JSON）を直接取得する
+  // GitHub Pages上の静的データファイル（JSON）を直接取得する
   const url = `./data/${selectedDate}_stats.json`;
 
   try {
@@ -118,6 +118,21 @@ async function loadStats() {
 }
 
 /**
+ * HTML特殊文字を無害化（エスケープ）するヘルパー関数（XSS対策）
+ * @param {*} str - 表示する値
+ * @returns {string} エスケープ済みの安全な文字列
+ */
+function escapeHtml(str) {
+  if (str == null) return "";
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+/**
  * 成績データをテーブルに描画する
  * @param {Array} results - /api/stats の results 配列
  * @param {string} selectedDate - 表示対象の日付 (YYYY-MM-DD)
@@ -147,17 +162,17 @@ function renderStats(results, selectedDate, todayStr) {
       const b = r.batting;
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td class="player-name">${r.player}</td>
-        <td class="team-vs">${r.team_vs}</td>
-        <td class="num today-stat">${b.AB}</td>
-        <td class="num today-stat">${b.H}</td>
-        <td class="num today-stat ${b.HR > 0 ? "highlight-hr" : ""}">${b.HR}</td>
-        <td class="num today-stat">${b.RBI}</td>
-        <td class="num today-stat">${b.BB}</td>
-        <td class="num today-stat">${b.SO}</td>
-        <td class="num season-stat">${b.season_avg || "-.---"}</td>
-        <td class="num season-stat">${b.season_hr || "0"}</td>
-        <td class="num season-stat">${b.season_rbi || "0"}</td>
+        <td class="player-name">${escapeHtml(r.player)}</td>
+        <td class="team-vs">${escapeHtml(r.team_vs)}</td>
+        <td class="num today-stat">${escapeHtml(b.AB)}</td>
+        <td class="num today-stat">${escapeHtml(b.H)}</td>
+        <td class="num today-stat ${b.HR > 0 ? "highlight-hr" : ""}">${escapeHtml(b.HR)}</td>
+        <td class="num today-stat">${escapeHtml(b.RBI)}</td>
+        <td class="num today-stat">${escapeHtml(b.BB)}</td>
+        <td class="num today-stat">${escapeHtml(b.SO)}</td>
+        <td class="num season-stat">${escapeHtml(b.season_avg || "-.---")}</td>
+        <td class="num season-stat">${escapeHtml(b.season_hr || "0")}</td>
+        <td class="num season-stat">${escapeHtml(b.season_rbi || "0")}</td>
       `;
       document.getElementById("batting-body").appendChild(tr);
     }
@@ -168,17 +183,17 @@ function renderStats(results, selectedDate, todayStr) {
       const p = r.pitching;
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td class="player-name">${r.player}</td>
-        <td class="team-vs">${r.team_vs}</td>
-        <td class="num today-stat">${p.IP}</td>
-        <td class="num today-stat">${p.H}</td>
-        <td class="num today-stat">${p.ER}</td>
-        <td class="num today-stat">${p.BB}</td>
-        <td class="num today-stat ${p.SO >= 6 ? "highlight-so" : ""}">${p.SO}</td>
-        <td class="num today-stat">${p.ERA}</td>
-        <td class="num season-stat">${p.season_wins || "0"}勝 ${p.season_losses || "0"}敗</td>
-        <td class="num season-stat">${p.season_era || "-.--"}</td>
-        <td class="num season-stat">${p.season_so || "0"}</td>
+        <td class="player-name">${escapeHtml(r.player)}</td>
+        <td class="team-vs">${escapeHtml(r.team_vs)}</td>
+        <td class="num today-stat">${escapeHtml(p.IP)}</td>
+        <td class="num today-stat">${escapeHtml(p.H)}</td>
+        <td class="num today-stat">${escapeHtml(p.ER)}</td>
+        <td class="num today-stat">${escapeHtml(p.BB)}</td>
+        <td class="num today-stat ${p.SO >= 6 ? "highlight-so" : ""}">${escapeHtml(p.SO)}</td>
+        <td class="num today-stat">${escapeHtml(p.ERA)}</td>
+        <td class="num season-stat">${escapeHtml(p.season_wins || "0")}勝 ${escapeHtml(p.season_losses || "0")}敗</td>
+        <td class="num season-stat">${escapeHtml(p.season_era || "-.--")}</td>
+        <td class="num season-stat">${escapeHtml(p.season_so || "0")}</td>
       `;
       document.getElementById("pitching-body").appendChild(tr);
     }

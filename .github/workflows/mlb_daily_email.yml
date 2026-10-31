@@ -54,7 +54,7 @@ jobs:
         git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update MLB stats data" && git push)
 
     # 6. web_ui/ フォルダを GitHub Pages（gh-pagesブランチ）に公開
-    #    → Netlifyの代わりに、GitHubが無料・無制限でWebサイトを配信します
+    #    → GitHubが無料・無制限でWebサイトを配信します
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:

@@ -65,4 +65,6 @@ if __name__ == "__main__":
     print("  MLB 日本人選手成績 Web UI サーバを起動します")
     print("  ブラウザで http://localhost:5000 を開いてください")
     print("=" * 50)
-    app.run(debug=True, host="127.0.0.1", port=5000)
+    # 環境変数 FLASK_DEBUG が true/1 の場合のみデバッグモードを有効化（通常時は安全のため False）
+    is_debug = os.environ.get("FLASK_DEBUG", "False").lower() in ("true", "1")
+    app.run(debug=is_debug, host="127.0.0.1", port=5000)
